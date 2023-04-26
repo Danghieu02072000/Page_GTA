@@ -1,0 +1,8 @@
+@import "./compones/reset.css";
+@import "./compones/global.css";
+@import "./compones/fonts.css";
+@import "./layouts/header.css";
+@import "./layouts/product.css";
+@import "./layouts/product_bottom.css";
+@import "./layouts/footer.css";
+

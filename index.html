@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="wrapper">
         <header class="header-main">
             <div class="header-container">
-                <nav class="site-header">
+                <nav class="nav-pc">
                     <a href="" class="logo">VaiThuHayHo</a>
-                    <div class="header-navigation">
-                        <ul class="navigation" id="header-nav">
+                    <div class="nav-pc__menu">
+                        <ul class="nav-pc__list" id="header-nav">
                             <li class=""><a href="review.html">App Reviews</a></li>
                             <li class=""><a href="aboutus.html">About us</a></li>
                         </ul>
-                        <div class="search-form-container">
+                        <div class="nav-pc__search">
                             <form id="search-form" class="search-form" method="get">
                             <input required="" name="q" class="search-input" type="search" placeholder="Search..." id="search-input-ajax">
                             <button class="search-btn-submit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -35,17 +36,17 @@
             </div>
         </header>
         <main class="main-wrapper">
-            <div class="custom-container">
-                <ul class="tag-menu">
-                    <li><a href="#">Home</a></li>
-                    <li>
+            <div class="product-container">
+                <ul class="product__tag-menu">
+                    <li class="product__tag-item"><a href="#">Home</a></li>
+                    <li class="product__tag-item">
                         <a href="#"><span>Action</span></a>
                     </li>
-                    <li class="active">Grand Theft Auto V</li>
+                    <li class="product__tag-item-active ">Grand Theft Auto V</li>
                 </ul>
                 <section class="product-top">
                     <div class="product__top-img">
-                        <img src="./images/g1.png" alt="Grand Theft Auto V Logo">
+                        <img src="./images/img_product-top.png" alt="Grand Theft Auto V Logo">
                     </div>
                     <div class="product__top-desc">
                         <h1>Grand Theft Auto V</h1>
@@ -61,7 +62,9 @@
                                 <p>The remastered San Andreas gives a new look to its cars while at the same adding some new models. Here are our top 5 cars that will give you candy to the eyes.</p>
                                 <span>Advertisement</span>
                             </div>
-                            <div class="product__left-carosel"></div>
+                            <div class="product__left-carosel">
+                                <img src="" alt="">
+                            </div>
                             <div class="product__left-title">
                                 <h2>GTA 5: Top 5 cars you should look for</h2>
                                 <p>The Super GT made its debut in San Andreas. There are two versions of it. One is a hard top and one is a targa top. The Super GT draws inspiration from a number of different vehicles such as the 1993 Mitsubishi 3000GT, the Nissan 300 ZX Z32 and the 1993 Toyota Supra.</p>
@@ -85,6 +88,15 @@
                         </div>
                         <div class="product__left-search">
                             <ul class="product__left-search-list">
+                                <li class="product__left-search-item">
+                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
+                                </li>
+                                <li class="product__left-search-item">
+                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
+                                </li>
+                                <li class="product__left-search-item">
+                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
+                                </li>
                                 <li class="product__left-search-item">
                                     <a href="" class="product__left-search-link">Vài thứ hay ho</a>
                                 </li>
@@ -177,50 +189,50 @@
                             <span>Vaithuhayho.com nơi để bạn tìm thấy những câu nói hay, status hay, danh ngôn hay, lời chúc hay kèm những câu caption thả thính hài hước để chia sẻ lên mạng xã hội. 
                             </span>
                             <p><b>Name</b>: Vài Thứ Hay Ho</p>
-                            <p><b>Website</b><a href="https://vaithuhayho.com/">https://vaithuhayho.com/</a></p>
+                            <p><b>Website</b><a href="https://vaithuhayho.com/" style="color:#3399ff">: https://vaithuhayho.com/</a></p>
                             <p><b>Phone</b>: 0979107410</p>
                             <p><b>Address</b>: 49 đường Trần Hưng Đạo, Phường Đội Cung, Thành phố Vinh, Tỉnh Nghệ An</p>
                             <p><b>Gmail</b>: vaithuhayhocom@gmail.com</p>
                             <ul class="product__left-contact-list">
-                                <li class="product__left-contact-item">
-                                    <b>Tìm kiếm</b>
+                                <li class="product__left-contact-item2">
+                                    <b style="color:black">Tìm kiếm:</b>
                                     <a href="" class="product__left-contact-link">Stt hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Stt hay về tình yêu</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Lời chúc hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
-                                <li class="product__left-contact-item">
+                                <li class="product__left-contact-item2">
                                     <a href="" class="product__left-contact-link">Câu nói hay</a>
                                 </li>
                             </ul>
-                            <span><a href="https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/">https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/</a></span>
+                            <span class="product__left-link"><a href="https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/">https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/</a></span>
                         </div>
                         <!-- leave a comment -->
-                        <div class="laguna-comments-wrapper">
+                        <!-- <div class="laguna-comments-wrapper">
                             <div class="comments-block-container block-padding bgw block-border">
                               <div class="comments-commun-block">
                                 <div class="add-comment-form-block">
@@ -606,7 +618,7 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> -->
                     </article>
                     <aside>
                         <div class="product__right-feedback">
