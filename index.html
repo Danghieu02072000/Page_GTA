@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -32,6 +34,26 @@
                             <div class="burger"></div>
                         </div>
                     </div>
+                </nav>
+                <nav class="nav-mobile">
+                    <div class="nav-mobile-top">
+                        <a href="/" class="logo">VaiThuHayHo</a>
+                        <div class="nav-mobie-btn">
+                            <div class="btn-togger">=</div>
+                            <div class="btn-search">0</div>
+                        </div>
+                    </div>
+                    <ul class="nav-mobile__menu">
+                        <li ><a href="" class="nav-mobile__link">App Reviews</a></li>
+                        <li><a href="" class="nav-mobie__link">About us</a></li>
+                    </ul>
+
+                    <div class="search-form-container" >
+                        <form id="search-form" class="search-form" method="get">
+                          <input required="" name="q" class="search-input" type="search" placeholder="Search..." id="search-input-ajax">
+                          <button class="search-btn-submit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </form>
+                      </div>
                 </nav>
             </div>
         </header>
@@ -63,7 +85,11 @@
                                 <span>Advertisement</span>
                             </div>
                             <div class="product__left-carosel">
-                                <img src="" alt="">
+                                <div class="owl-carousel owl-theme">
+                                    <div> <img src="./images/img_carosel1.png" alt=""></div>
+                                    <div> <img src="./images/img_carosel2.png" alt=""> </div>
+                                    <div> <img src="./images/img_carosel3.png" alt=""></div>
+                                  </div>
                             </div>
                             <div class="product__left-title">
                                 <h2>GTA 5: Top 5 cars you should look for</h2>
@@ -131,22 +157,22 @@
                                 </li>
                                 <li class="product__left-post-item">
                                     <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
+                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="./images/img_left-1.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
                                     <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
                                 </li>
                                 <li class="product__left-post-item">
                                     <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
+                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="./images/img_left-2.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
                                     <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
                                 </li>
                                 <li class="product__left-post-item">
                                     <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
+                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="./images/img_left-1.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
                                     <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
                                 </li>
                                 <li class="product__left-post-item">
                                     <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
+                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="images/img_left-2.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
                                     <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
                                 </li>
                                 <li class="product__left-post-item">
@@ -620,11 +646,10 @@
                             </div>
                           </div> -->
                     </article>
-                    <aside>
+                    <aside class="product__right">
                         <div class="product__right-feedback">
                             <h2>Authors Feedback</h2>
                             <div class="author-feedback">
-                                <h2>Authors Feedback</h2>
                                 <div class="author-rating">
                                   <div class="rating-num">
                                     <h3>5</h3>
@@ -666,14 +691,6 @@
                                   </ul>
                                 </div>
                             </div>
-                            <div class="highly-rated">
-                                <h4>Highly rated for</h4>
-                                <ul>
-                                  <li><span>The gameplay is deep and breathtaking; </span></li>
-                                  <li><span>The plot is engrossing; </span></li>
-                                  <li><span>The visuals are realistic.</span></li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="prodcut__right-details">
                             <h2>PS4 Details</h2>
@@ -686,45 +703,45 @@
                             <h2 class="product__right-trending-title">Trending Reviews</h2>
                             <ul class="product__right-trending-list">
                                 <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-item">
+                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
                                         <span class="card-image">
-                                        <img src="./images/f1.png" alt="">
+                                        <img src="./images/img_product-right1.png" alt="">
                                         </span>
                                         <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> <span class="scopely">Action</span>
+                                        <span class="item-name">Fortnite</span> 
                                         <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
                                         </span>
                                         </a>
                                 </li>
                                 <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-item">
+                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
                                         <span class="card-image">
-                                        <img src="./images/f1.png" alt="">
+                                        <img src="./images/img_product-right2.png" alt="">
                                         </span>
                                         <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> <span class="scopely">Action</span>
+                                        <span class="item-name">Fortnite</span> 
                                         <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
                                         </span>
                                         </a>
                                 </li>
                                 <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-item">
+                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
                                         <span class="card-image">
-                                        <img src="./images/f1.png" alt="">
+                                        <img src="./images/img_product-right3.png" alt="">
                                         </span>
                                         <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> <span class="scopely">Action</span>
+                                        <span class="item-name">Fortnite</span> 
                                         <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
                                         </span>
                                         </a>
                                 </li>
                                 <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-item">
+                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
                                         <span class="card-image">
-                                        <img src="./images/f1.png" alt="">
+                                        <img src="./images/img_product-right1.png" alt="">
                                         </span>
                                         <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> <span class="scopely">Action</span>
+                                        <span class="item-name">Fortnite</span> 
                                         <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
                                         </span>
                                         </a>
@@ -772,5 +789,17 @@
             </div>
         </footer>
     </div>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+        items:1,
+        loop:true,
+        nav:true,
+  });
+});
+</script>
+<script src="./js/nav.js"></script>
 </body>
 </html>

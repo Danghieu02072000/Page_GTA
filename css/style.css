@@ -5,4 +5,5 @@
 @import "./layouts/product.css";
 @import "./layouts/product_bottom.css";
 @import "./layouts/footer.css";
-
+@import "./layouts/product_right.css";
+@import "./layouts/responsive.css";

@@ -1,0 +1,112 @@
+
+@media (min-width:450px) and (max-width: 950px) {
+    .product__right {
+        margin-left: 0;
+    }
+    .wrapper {
+      width: 95%;
+     }
+    .product__bottom {
+    flex-direction: column;
+    }
+    .product__left{
+        width: 100%;
+    }
+    .product__right{
+        width: 100%;
+    }
+    .author-rating {
+        display: flex;
+        justify-content: space-around;
+    }
+    .product__right-trending-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .product__right-trending-item {
+        width: 45%;
+    }
+
+}
+
+@media (max-width:450px) {
+    h1{
+        font-size: 20px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    .nav-pc {
+        display: none;
+    }
+    .product__right {
+        margin-left: 0;
+    }
+    .product__bottom {
+        flex-direction: column;
+    }
+    .product__left {
+        width: 100%;
+    }
+    .product-top {
+        flex-wrap: wrap;
+        padding: 20px;
+        gap:10px;
+    }
+    .product__top-img {
+        width: 30%;
+        height: unset;
+    }
+    .product__top-desc {
+        width: 65%;
+    }
+    .product__top-btn {
+        width: 300px;
+        height: 44px;
+        margin: 20px 0;
+        margin-left:auto;
+
+    }
+    .product__left-article {
+        padding: 20px 15px 30px;
+    }
+
+    .product__left-category-title {
+        font-size: 20px;
+    }
+    .product__left-category-link {
+        padding: 2px 20px;
+    }
+    .product__left-post-item {
+        padding: 12px;
+    }
+    .product__right-feedback {
+        padding: 0;
+    }
+    .product__right-feedback h2 {
+       padding: 24px 24px 16px;
+    }
+    .author-rating {
+        padding: 16px 15px 27px;
+        
+    }
+    .highly-rated {
+        padding: 24px 15px 32px;
+        border-top: 1px solid #ededed;
+    }
+    .rating-num {
+        gap: 0;
+    }
+    .rating-star {
+        margin: 8px 0 0;
+    }
+    .prodcut__right-details h2 {
+        padding: 20px 15px 16px;
+    }
+    .prodcut__right-details ul {
+        padding: 20px 15px 32px;
+    }
+    .product-container {
+        padding-bottom: 40px;
+    }
+}
