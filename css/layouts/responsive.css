@@ -7,6 +7,9 @@
   .nav-pc {
     display: none;
   }
+  .product__left-install-btn{
+    width: 80%;
+  }
   .nav-mobile {
     display: block;
   }
@@ -26,7 +29,14 @@
     z-index: 999;
   }
 }
+@media (min-width:500px) and (max-width:1000px){
+  .product-container-two {
+    width: 85%;
+    margin: 0 auto;
+  } 
+}
 @media (min-width: 490px) and (max-width: 950px) {
+
   .product__right {
     margin-left: 0;
   }
@@ -83,6 +93,7 @@
     width: 30%;
     height: unset;
   }
+
   .product__top-desc {
     width: 65%;
   }
@@ -150,6 +161,9 @@
   }
   .owl-prev > span {
     padding: 0px;
+  }
+  .section .product__top-btn {
+    margin:0 auto
   }
 }
 @media (max-width: 380px) {
