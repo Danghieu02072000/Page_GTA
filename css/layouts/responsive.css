@@ -154,9 +154,13 @@
     .owl-prev > span {
         padding:0px;
     }
+    .search-btn-submit {
+        right: 35px;
+    }
 }
 @media (max-width:380px){
     .nav-mobile .search-form-container {
         width: 100%;
     }
+
 }
