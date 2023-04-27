@@ -4,7 +4,7 @@
     color: #76ace6;
 }
 .nav-pc {
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -12,8 +12,8 @@
 }
 .nav-pc__menu {
     display: flex;
-    gap: 30px;
     justify-content: center;
+    margin-left: 30px;
     align-items: center;
 }
 .nav-pc__list {
@@ -54,6 +54,7 @@
 }
 .nav-pc__search {
     display: flex;
+    margin-left: 30px;
 }
 .search-form input {
     height: 44px;
@@ -65,11 +66,21 @@
 }
 .search-btn-submit {
     position: absolute;
-    right: 20px;
-    top:    15px;
-    padding: 8px 15px 2px 0;
-    font-size: 15px;
+    right: 10px;
+    top: 2px;
+    padding: 8px;
+    font-size: 20px;
     color: #83858f;
+    background: transparent;
+    border: 0;
+}
+
+.search-form-btn {
+    font-size: 20px;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 }
 /* mobile */
 .nav-mobile-top {
