@@ -1,798 +1,1840 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./js/plugins/owl.carousel/dist/assets/owl.carousel.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./js/plugins/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+  </head>
+  <body>
     <div class="wrapper">
-        <header class="header-main">
-            <div class="header-container">
-                <nav class="nav-pc">
-                    <a href="" class="logo">VaiThuHayHo</a>
-                    <div class="nav-pc__menu">
-                        <ul class="nav-pc__list" id="header-nav">
-                            <li class=""><a href="review.html">App Reviews</a></li>
-                            <li class=""><a href="aboutus.html">About us</a></li>
-                        </ul>
-                        <div class="nav-pc__search">
-                            <form id="search-form" class="search-form" method="get">
-                            <input required="" name="q" class="search-input" type="search" placeholder="Search..." id="search-input-ajax">
-                            <button class="search-btn-submit" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                            </form>
-                            <div id="search-results" class="search-results-list-container hide">
-                            <ul class="search-results-list" id="results"></ul>
-                            </div>
-                        </div>
-                        <a class="search-form-btn"> <i class="fa fa-search" aria-hidden="true"></i> </a>
-                        <div class="navbar-toggle burger-menu">
-                            <div class="burger"></div>
-                        </div>
-                    </div>
-                </nav>
-                <nav class="nav-mobile">
-                    <div class="nav-mobile-top">
-                        <a href="/" class="logo">VaiThuHayHo</a>
-                        <div class="nav-mobie-btn">
-                          <div class="btn-search"><img src="./imgs/icons8-search-50.png" alt="" width="24px" height="24px"></div>
-                            <div class="btn-togger"><img src="./imgs/icons8-menu-24.png" alt=""></div>
-                        </div>
-                    </div>
-                    <ul class="nav-mobile__menu">
-                        <li ><a href="" class="nav-mobile__link">App Reviews</a></li>
-                        <li><a href="" class="nav-mobie__link">About us</a></li>
-                    </ul>
-
-                    <div class="search-form-container" >
-                        <form id="search-form" class="search-form" method="get">
-                          <input required="" name="q" class="search-input" type="search" placeholder="Search..." id="search-input-ajax">
-                          <button class="search-btn-submit" type="submit"><img src="./imgs/icons8-search.svg" alt="" width="24px" height="24px"></button>
-                        </form>
-                      </div>
-                </nav>
+      <header class="header-main">
+        <div class="header-container">
+          <nav class="nav-pc">
+            <a href="" class="logo">VaiThuHayHo</a>
+            <div class="nav-pc__menu">
+              <ul class="nav-pc__list" id="header-nav">
+                <li class=""><a href="review.html">App Reviews</a></li>
+                <li class=""><a href="aboutus.html">About us</a></li>
+              </ul>
+              <div class="nav-pc__search">
+                <form id="search-form" class="search-form" method="get">
+                  <input
+                    required=""
+                    name="q"
+                    class="search-input"
+                    type="search"
+                    placeholder="Search..."
+                    id="search-input-ajax"
+                  />
+                  <button class="search-btn-submit" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </form>
+                <div
+                  id="search-results"
+                  class="search-results-list-container hide"
+                >
+                  <ul class="search-results-list" id="results"></ul>
+                </div>
+              </div>
+              <a class="search-form-btn">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </a>
+              <div class="navbar-toggle burger-menu">
+                <div class="burger"></div>
+              </div>
             </div>
-        </header>
-        <main class="main-wrapper">
-            <div class="product-container">
-                <ul class="product__tag-menu">
-                    <li class="product__tag-item"><a href="#">Home</a></li>
-                    <li class="product__tag-item">
-                        <a href="#"><span>Action</span></a>
-                    </li>
-                    <li class="product__tag-item-active ">Grand Theft Auto V</li>
-                </ul>
-                <section class="product-top">
-                    <div class="product__top-img">
-                        <img src="./images/img_product-top.png" alt="Grand Theft Auto V Logo">
-                    </div>
-                    <div class="product__top-desc">
-                        <h1>Grand Theft Auto V</h1>
-                        <p>All trademarks belong to their respective owners.</p>
-                    </div>
-                    <a onclick="return gtag_report_conversion('http://example.com/your-link')"href="http://example.com/your-link" class="product__top-btn">Get Game</a>
-                </section>
-                <div class="product__bottom">
-                    <article class="product__left">
-                        <div class="product__left-article">
-                            <div class="product__left-title">
-                                <h2>Grand Theft Auto V Review</h2>
-                                <p>The remastered San Andreas gives a new look to its cars while at the same adding some new models. Here are our top 5 cars that will give you candy to the eyes.</p>
-                                <span>Advertisement</span>
-                            </div>
-                            <div class="product__left-carosel">
-                                <div class="owl-carousel owl-theme">
-                                    <div> <img src="./images/img_carosel1.png" alt=""></div>
-                                    <div> <img src="./images/img_carosel2.png" alt=""> </div>
-                                    <div> <img src="./images/img_carosel3.png" alt=""></div>
-                                  </div>
-                            </div>
-                            <div class="product__left-title">
-                                <h2>GTA 5: Top 5 cars you should look for</h2>
-                                <p>The Super GT made its debut in San Andreas. There are two versions of it. One is a hard top and one is a targa top. The Super GT draws inspiration from a number of different vehicles such as the 1993 Mitsubishi 3000GT, the Nissan 300 ZX Z32 and the 1993 Toyota Supra.</p>
-                            </div>
-                            <div class="product__left-title">
-                                <h2>Super GT</h2>
-                                <p>To find a Super GT in GTA: San Andreas, you will have to be patient. Compared to other cars, it spawns rarely in the game. Usually you should check out the Strip in Las Venturas. There is a high chance that the car will appear at night.</p>
-                            </div>
-                            <div class="product__left-title">
-                                <h2>Cheetah</h2>
-                                <p>Inspired by the Ferrari Testarossa and especially the F512 TR model, this car not only provides high speed but only gives a slick and cool appearance just like its name. You can easily get this car in a lot of places in GTA: San Andreas. Their spawn locations are usually Rode, Paradiso, Old Venturas and Market. You can even import one at the import/export dock in San Fierro. However it would cost them around $84,000.</p>
-                            </div>
-                        </div>
-                        <div class="product__left-category">
-                            <h2 class="product__left-category-title">Category</h2>
-                            <ul class="product__left-category-list">
-                                <li class="product__left-category-item">
-                                    <a href="" class="product__left-category-link">Action</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="product__left-search">
-                            <ul class="product__left-search-list">
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
-                                <li class="product__left-search-item">
-                                    <a href="" class="product__left-search-link">Vài thứ hay ho</a>
-                                </li>
+          </nav>
+          <nav class="nav-mobile">
+            <div class="nav-mobile-top">
+              <a href="/" class="logo">VaiThuHayHo</a>
+              <div class="nav-mobie-btn">
+                <div class="btn-search">
+                  <img
+                    src="./imgs/icons8-search-50.png"
+                    alt=""
+                    width="24px"
+                    height="24px"
+                  />
+                </div>
+                <div class="btn-togger">
+                  <img src="./imgs/icons8-menu-24.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <ul class="nav-mobile__menu">
+              <li><a href="" class="nav-mobile__link">App Reviews</a></li>
+              <li><a href="" class="nav-mobie__link">About us</a></li>
+            </ul>
 
-                            </ul>
-                            <form method="get" id="searchform" action="https://vaithuhayho.com/" class="product__left-search-form">
-                                <input type="text" name="s" id="s" value="Tìm kiếm..">
-                            </form>
+            <div class="search-form-container">
+              <form id="search-form" class="search-form" method="get">
+                <input
+                  required=""
+                  name="q"
+                  class="search-input"
+                  type="search"
+                  placeholder="Search..."
+                  id="search-input-ajax"
+                />
+                <button class="search-btn-submit" type="submit">
+                  <img
+                    src="./imgs/icons8-search.svg"
+                    alt=""
+                    width="24px"
+                    height="24px"
+                  />
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main class="main-wrapper">
+        <div class="product-container">
+          <ul class="product__tag-menu">
+            <li class="product__tag-item"><a href="#">Home</a></li>
+            <li class="product__tag-item">
+              <a href="#"><span>Action</span></a>
+            </li>
+            <li class="product__tag-item-active">Grand Theft Auto V</li>
+          </ul>
+          <section class="product-top">
+            <div class="product__top-img">
+              <img
+                src="./images/img_product-top.png"
+                alt="Grand Theft Auto V Logo"
+              />
+            </div>
+            <div class="product__top-desc">
+              <h1>Grand Theft Auto V</h1>
+              <p>All trademarks belong to their respective owners.</p>
+            </div>
+            <a
+              onclick="return gtag_report_conversion('http://example.com/your-link')"
+              href="http://example.com/your-link"
+              class="product__top-btn"
+              >Get Game</a
+            >
+          </section>
+          <div class="product__bottom">
+            <article class="product__left">
+              <div class="product__left-article">
+                <div class="product__left-title">
+                  <h2>Grand Theft Auto V Review</h2>
+                  <p>
+                    The remastered San Andreas gives a new look to its cars
+                    while at the same adding some new models. Here are our top 5
+                    cars that will give you candy to the eyes.
+                  </p>
+                  <span>Advertisement</span>
+                </div>
+                <div class="product__left-carosel">
+                  <div class="owl-carousel owl-theme">
+                    <div><img src="./images/img_carosel1.png" alt="" /></div>
+                    <div><img src="./images/img_carosel2.png" alt="" /></div>
+                    <div><img src="./images/img_carosel3.png" alt="" /></div>
+                  </div>
+                </div>
+                <div class="product__left-title">
+                  <h2>GTA 5: Top 5 cars you should look for</h2>
+                  <p>
+                    The Super GT made its debut in San Andreas. There are two
+                    versions of it. One is a hard top and one is a targa top.
+                    The Super GT draws inspiration from a number of different
+                    vehicles such as the 1993 Mitsubishi 3000GT, the Nissan 300
+                    ZX Z32 and the 1993 Toyota Supra.
+                  </p>
+                </div>
+                <div class="product__left-title">
+                  <h2>Super GT</h2>
+                  <p>
+                    To find a Super GT in GTA: San Andreas, you will have to be
+                    patient. Compared to other cars, it spawns rarely in the
+                    game. Usually you should check out the Strip in Las
+                    Venturas. There is a high chance that the car will appear at
+                    night.
+                  </p>
+                </div>
+                <div class="product__left-title">
+                  <h2>Cheetah</h2>
+                  <p>
+                    Inspired by the Ferrari Testarossa and especially the F512
+                    TR model, this car not only provides high speed but only
+                    gives a slick and cool appearance just like its name. You
+                    can easily get this car in a lot of places in GTA: San
+                    Andreas. Their spawn locations are usually Rode, Paradiso,
+                    Old Venturas and Market. You can even import one at the
+                    import/export dock in San Fierro. However it would cost them
+                    around $84,000.
+                  </p>
+                </div>
+              </div>
+              <div class="product__left-category">
+                <h2 class="product__left-category-title">Category</h2>
+                <ul class="product__left-category-list">
+                  <li class="product__left-category-item">
+                    <a href="" class="product__left-category-link">Action</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="product__left-search">
+                <ul class="product__left-search-list">
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                  <li class="product__left-search-item">
+                    <a href="" class="product__left-search-link"
+                      >Vài thứ hay ho</a
+                    >
+                  </li>
+                </ul>
+                <form
+                  method="get"
+                  id="searchform"
+                  action="https://vaithuhayho.com/"
+                  class="product__left-search-form"
+                >
+                  <input type="text" name="s" id="s" value="Tìm kiếm.." />
+                </form>
+              </div>
+              <div class="product__left-post">
+                <h2 class="product__left-post-title">Vài Thứ Hay Ho</h2>
+                <ul class="product__left-post-list">
+                  <li class="product__left-post-item">
+                    <h2>
+                      <a
+                        href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                        class="relatedtit"
+                        rel="bookmark"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        >Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a
+                      >
+                    </h2>
+                    <a
+                      href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                      rel="bookmark"
+                      title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                      ><img
+                        width="120"
+                        height="58"
+                        src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp"
+                        class="attachment-rand-thumb size-rand-thumb wp-post-image"
+                        alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        loading="lazy"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                    /></a>
+                    <span class="descr-10567"
+                      >Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải,
+                      khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể
+                      tìm được một món...</span
+                    >
+                  </li>
+                  <li class="product__left-post-item">
+                    <h2>
+                      <a
+                        href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                        class="relatedtit"
+                        rel="bookmark"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        >Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a
+                      >
+                    </h2>
+                    <a
+                      href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                      rel="bookmark"
+                      title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                      ><img
+                        width="120"
+                        height="58"
+                        src="./images/img_left-1.jpg"
+                        class="attachment-rand-thumb size-rand-thumb wp-post-image"
+                        alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        loading="lazy"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                    /></a>
+                    <span class="descr-10567"
+                      >Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải,
+                      khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể
+                      tìm được một món...</span
+                    >
+                  </li>
+                  <li class="product__left-post-item">
+                    <h2>
+                      <a
+                        href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                        class="relatedtit"
+                        rel="bookmark"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        >Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a
+                      >
+                    </h2>
+                    <a
+                      href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                      rel="bookmark"
+                      title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                      ><img
+                        width="120"
+                        height="58"
+                        src="./images/img_left-2.jpg"
+                        class="attachment-rand-thumb size-rand-thumb wp-post-image"
+                        alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        loading="lazy"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                    /></a>
+                    <span class="descr-10567"
+                      >Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải,
+                      khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể
+                      tìm được một món...</span
+                    >
+                  </li>
+                  <li class="product__left-post-item">
+                    <h2>
+                      <a
+                        href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                        class="relatedtit"
+                        rel="bookmark"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        >Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a
+                      >
+                    </h2>
+                    <a
+                      href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                      rel="bookmark"
+                      title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                      ><img
+                        width="120"
+                        height="58"
+                        src="./images/img_left-1.jpg"
+                        class="attachment-rand-thumb size-rand-thumb wp-post-image"
+                        alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        loading="lazy"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                    /></a>
+                    <span class="descr-10567"
+                      >Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải,
+                      khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể
+                      tìm được một món...</span
+                    >
+                  </li>
+                  <li class="product__left-post-item">
+                    <h2>
+                      <a
+                        href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                        class="relatedtit"
+                        rel="bookmark"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        >Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a
+                      >
+                    </h2>
+                    <a
+                      href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                      rel="bookmark"
+                      title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                      ><img
+                        width="120"
+                        height="58"
+                        src="images/img_left-2.jpg"
+                        class="attachment-rand-thumb size-rand-thumb wp-post-image"
+                        alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        loading="lazy"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                    /></a>
+                    <span class="descr-10567"
+                      >Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải,
+                      khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể
+                      tìm được một món...</span
+                    >
+                  </li>
+                  <li class="product__left-post-item">
+                    <h2>
+                      <a
+                        href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                        class="relatedtit"
+                        rel="bookmark"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        >Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a
+                      >
+                    </h2>
+                    <a
+                      href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                      rel="bookmark"
+                      title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                      ><img
+                        width="120"
+                        height="58"
+                        src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp"
+                        class="attachment-rand-thumb size-rand-thumb wp-post-image"
+                        alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        loading="lazy"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                    /></a>
+                    <span class="descr-10567"
+                      >Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải,
+                      khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể
+                      tìm được một món...</span
+                    >
+                  </li>
+                  <li class="product__left-post-item">
+                    <h2>
+                      <a
+                        href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                        class="relatedtit"
+                        rel="bookmark"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        >Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a
+                      >
+                    </h2>
+                    <a
+                      href="https://vaithuhayho.com/qua-tang-sep-nam-nu"
+                      rel="bookmark"
+                      title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                      ><img
+                        width="120"
+                        height="58"
+                        src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp"
+                        class="attachment-rand-thumb size-rand-thumb wp-post-image"
+                        alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                        loading="lazy"
+                        title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"
+                    /></a>
+                    <span class="descr-10567"
+                      >Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải,
+                      khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể
+                      tìm được một món...</span
+                    >
+                  </li>
+                </ul>
+                <div class="product__left-post-nextpage">
+                  <span aria-current="page" class="page-numbers current"
+                    >1</span
+                  >
+                  <a class="page-numbers" href="https://vaithuhayho.com/page/2"
+                    >2</a
+                  >
+                  <a class="page-numbers" href="https://vaithuhayho.com/page/3"
+                    >3</a
+                  >
+                  <a class="page-numbers" href="https://vaithuhayho.com/page/4"
+                    >4</a
+                  >
+                  <a class="page-numbers" href="https://vaithuhayho.com/page/5"
+                    >5</a
+                  >
+                  <a class="page-numbers" href="https://vaithuhayho.com/page/6"
+                    >6</a
+                  >
+                  <span class="page-numbers dots">…</span>
+                  <a class="page-numbers" href="https://vaithuhayho.com/page/46"
+                    >46</a
+                  >
+                  <a
+                    class="next page-numbers"
+                    href="https://vaithuhayho.com/page/2"
+                    >Trang cũ</a
+                  >
+                </div>
+              </div>
+              <div class="product__left-contact">
+                <span>Liên hệ đặt quảng cáo: 0985.747.525 (Có Zalo)</span>
+                <ul class="product__left-contact-list">
+                  <li class="product__left-contact-item">
+                    <a href="" class="product__left-contact-link">Giới thiệu</a>
+                  </li>
+                  <li class="product__left-contact-item">
+                    <a href="" class="product__left-contact-link">Liên hệ</a>
+                  </li>
+                  <li class="product__left-contact-item">
+                    <a href="" class="product__left-contact-link"
+                      >Chính sách bảo mật</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item">
+                    <a href="" class="product__left-contact-link"
+                      >Chính sách quyền riêng tư</a
+                    >
+                  </li>
+                </ul>
+                <span
+                  >Vaithuhayho.com nơi để bạn tìm thấy những câu nói hay, status
+                  hay, danh ngôn hay, lời chúc hay kèm những câu caption thả
+                  thính hài hước để chia sẻ lên mạng xã hội.
+                </span>
+                <p><b>Name</b>: Vài Thứ Hay Ho</p>
+                <p>
+                  <b>Website</b
+                  ><a href="https://vaithuhayho.com/" style="color: #3399ff"
+                    >: https://vaithuhayho.com/</a
+                  >
+                </p>
+                <p><b>Phone</b>: 0979107410</p>
+                <p>
+                  <b>Address</b>: 49 đường Trần Hưng Đạo, Phường Đội Cung, Thành
+                  phố Vinh, Tỉnh Nghệ An
+                </p>
+                <p><b>Gmail</b>: vaithuhayhocom@gmail.com</p>
+                <ul class="product__left-contact-list">
+                  <li class="product__left-contact-item2">
+                    <b style="color: black">Tìm kiếm:</b>
+                    <a href="" class="product__left-contact-link">Stt hay</a>
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Stt hay về tình yêu</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Lời chúc hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                  <li class="product__left-contact-item2">
+                    <a href="" class="product__left-contact-link"
+                      >Câu nói hay</a
+                    >
+                  </li>
+                </ul>
+                <span class="product__left-link"
+                  ><a
+                    href="https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/"
+                    >https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/</a
+                  ></span
+                >
+              </div>
+              <!-- leave a comment -->
+              <div class="laguna-comments-wrapper">
+                <div
+                  class="comments-block-container block-padding bgw block-border"
+                >
+                  <div class="comments-commun-block">
+                    <div class="add-comment-form-block">
+                      <h2 class="block-title small leave-comment-title">
+                        Leave a comment
+                      </h2>
+                      <form
+                        class="add-comment-form"
+                        id="comment-form"
+                        method="post"
+                        action=""
+                      >
+                        <input
+                          type="hidden"
+                          name="_token"
+                          value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI"
+                        />
+                        <div class="union-block">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              name="name"
+                              class="custom-input comment"
+                              placeholder="Name*"
+                              required=""
+                            />
+                          </div>
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              name="email"
+                              class="custom-input comment"
+                              placeholder="Email*"
+                              required=""
+                            />
+                          </div>
                         </div>
-                        <div class="product__left-post">
-                            <h2 class="product__left-post-title">Vài Thứ Hay Ho</h2>
-                            <ul class="product__left-post-list">
-                                <li class="product__left-post-item">
-                                    <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
-                                    <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
-                                </li>
-                                <li class="product__left-post-item">
-                                    <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="./images/img_left-1.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
-                                    <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
-                                </li>
-                                <li class="product__left-post-item">
-                                    <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="./images/img_left-2.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
-                                    <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
-                                </li>
-                                <li class="product__left-post-item">
-                                    <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="./images/img_left-1.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
-                                    <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
-                                </li>
-                                <li class="product__left-post-item">
-                                    <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="images/img_left-2.jpg" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
-                                    <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
-                                </li>
-                                <li class="product__left-post-item">
-                                    <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
-                                    <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
-                                </li>
-                                <li class="product__left-post-item">
-                                    <h2><a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" class="relatedtit" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh">Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh</a></h2>
-                                        <a href="https://vaithuhayho.com/qua-tang-sep-nam-nu" rel="bookmark" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"><img width="120" height="58" src="https://vaithuhayho.com/wp-content/uploads/2022/04/qua-tang-sep-nam-nu.webp" class="attachment-rand-thumb size-rand-thumb wp-post-image" alt="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh" loading="lazy" title="Quà Tặng Sếp Nam, Nữ Tinh Tế Gây Được Ấn Tượng Mạnh"></a>
-                                    <span class="descr-10567">Mua quà tặng sếp nam, nữ luôn là một vấn đề nan giải, khiến nhiều người phải đau đầu suy nghĩ. Làm sao để có thể tìm được một món...</span>     
-                                </li>
-                            </ul>
-                            <div class="product__left-post-nextpage"><span aria-current="page" class="page-numbers current">1</span>
-                                <a class="page-numbers" href="https://vaithuhayho.com/page/2">2</a>
-                                <a class="page-numbers" href="https://vaithuhayho.com/page/3">3</a>
-                                <a class="page-numbers" href="https://vaithuhayho.com/page/4">4</a>
-                                <a class="page-numbers" href="https://vaithuhayho.com/page/5">5</a>
-                                <a class="page-numbers" href="https://vaithuhayho.com/page/6">6</a>
-                                <span class="page-numbers dots">…</span>
-                                <a class="page-numbers" href="https://vaithuhayho.com/page/46">46</a>
-                                <a class="next page-numbers" href="https://vaithuhayho.com/page/2">Trang cũ</a></div>
+                        <div class="form-group">
+                          <textarea
+                            name="text"
+                            class="custom-textarea comment"
+                            placeholder="Comment*"
+                            required=""
+                          ></textarea>
                         </div>
-                        <div class="product__left-contact">
-                            <span>Liên hệ đặt quảng cáo: 0985.747.525 (Có Zalo)</span>
-                            <ul class="product__left-contact-list">
-                                <li class="product__left-contact-item">
-                                    <a href="" class="product__left-contact-link">Giới thiệu</a>
-                                </li>
-                                <li class="product__left-contact-item">
-                                    <a href="" class="product__left-contact-link">Liên hệ</a>
-                                </li>
-                                <li class="product__left-contact-item">
-                                    <a href="" class="product__left-contact-link">Chính sách bảo mật</a>
-                                </li>
-                                <li class="product__left-contact-item">
-                                    <a href="" class="product__left-contact-link">Chính sách quyền riêng tư</a>
-                                </li>
-                            </ul>
-                            <span>Vaithuhayho.com nơi để bạn tìm thấy những câu nói hay, status hay, danh ngôn hay, lời chúc hay kèm những câu caption thả thính hài hước để chia sẻ lên mạng xã hội. 
-                            </span>
-                            <p><b>Name</b>: Vài Thứ Hay Ho</p>
-                            <p><b>Website</b><a href="https://vaithuhayho.com/" style="color:#3399ff">: https://vaithuhayho.com/</a></p>
-                            <p><b>Phone</b>: 0979107410</p>
-                            <p><b>Address</b>: 49 đường Trần Hưng Đạo, Phường Đội Cung, Thành phố Vinh, Tỉnh Nghệ An</p>
-                            <p><b>Gmail</b>: vaithuhayhocom@gmail.com</p>
-                            <ul class="product__left-contact-list">
-                                <li class="product__left-contact-item2">
-                                    <b style="color:black">Tìm kiếm:</b>
-                                    <a href="" class="product__left-contact-link">Stt hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Stt hay về tình yêu</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Lời chúc hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                                <li class="product__left-contact-item2">
-                                    <a href="" class="product__left-contact-link">Câu nói hay</a>
-                                </li>
-                            </ul>
-                            <span class="product__left-link"><a href="https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/">https://fblaw.vn/dich-vu-luat-su-gioi-tai-tp-vinh-nghe-an/</a></span>
+                        <div class="feedback-and-agreement">
+                          <div class="agreement-block">
+                            <input
+                              type="checkbox"
+                              name="policy"
+                              id="comment-policy-agree"
+                              value="1"
+                              class="custom-checkbox"
+                              required=""
+                            />
+                            <label
+                              for="comment-policy-agree"
+                              class="custom-checkbox-label"
+                            >
+                              <span class="text">I read and agree the</span>
+                              <a
+                                target="_blank"
+                                href="/privacy-policy"
+                                class="link"
+                                >Privacy policy</a
+                              >
+                            </label>
+                          </div>
                         </div>
-                        <!-- leave a comment -->
-                        <div class="laguna-comments-wrapper">
-                            <div class="comments-block-container block-padding bgw block-border">
-                              <div class="comments-commun-block">
-                                <div class="add-comment-form-block">
-                                  <h2 class="block-title small leave-comment-title">Leave a comment</h2>
-                                  <form class="add-comment-form" id="comment-form" method="post" action="">
-                                    <input type="hidden" name="_token" value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI">
-                                    <div class="union-block">
-                                      <div class="form-group">
-                                        <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="">
-                                      </div>
-                                      <div class="form-group">
-                                        <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="">
-                                      </div>
-                                    </div>
-                                    <div class="form-group">
-                                      <textarea name="text" class="custom-textarea comment" placeholder="Comment*" required=""></textarea>
-                                    </div>
-                                    <div class="feedback-and-agreement">
-                                      <div class="agreement-block">
-                                        <input type="checkbox" name="policy" id="comment-policy-agree" value="1" class="custom-checkbox" required="">
-                                        <label for="comment-policy-agree" class="custom-checkbox-label">
-                                        <span class="text">I read and agree the</span>
-                                        <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
-                                        </label>
-                                      </div>
-                                    </div>
-                                    <div class="form-group mt-15">
-                                      <div class="g-recaptcha" data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75">
-                                        <div style="width: 304px; height: 78px;">
-                                          <div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75&amp;co=aHR0cHM6Ly9wdmFtYWdpYy5jb206NDQz&amp;hl=en&amp;v=NZrMWHVy58-S9gVvad9HVGxk&amp;size=normal&amp;cb=tzpvckcgv0dv" width="304" height="78" role="presentation" name="a-x0uvanngmfzi" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div>
-                                          <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                                        </div>
-                                        <iframe style="display: none;"></iframe>
-                                      </div>
-                                    </div>
-                                    <input type="hidden" name="commentable_type" value="App\Product">
-                                    <input type="hidden" name="commentable_id" value="153">
-                                    <div class="btn-container">
-                                      <button type="submit" class="simple-btn submit-btn send-comment-btn">
-                                      Add a comment
-                                      </button>
-                                    </div>
-                                  </form>
-                                </div>
-                                <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block" role="alert" style="display: none"></div>
-                                <div class="alert alert-info ajax-info mt-15" id="ajax-info-block" role="alert" style="display: none">
-                                  <p>Your comment is awaiting moderation. We save your draft here</p>
-                                </div>
-                                <div class="comments-list-container">
-                                  <h3 class="title"> <span class="count" id="comments-count">101</span> Comments </h3>
-                                  <ul class="comments-list">
-                                    <li>
-                                      <div class="comment-item">
-                                        <div class="title-part">
-                                          <div class="user-info">
-                                            <img class="avatar has-avatar " src="https://www.gravatar.com/avatar/4f2ba511769fdaeaadebfe577d3c9b1d?s=36&amp;d=mp"> 
-                                            <div class="concise">
-                                              <div class="nickname">May</div>
-                                              <div class="time">added 1 week ago</div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="body-part">
-                                          <div>Nice to get it from the</div>
-                                          <a href="#close" class="link">Read more</a> 
-                                        </div>
-                                        <div class="bottom-part">
-                                          <div class="helpful-comment-block">
-                                            <ul class="helpful-comment-list" data-id="8003" data-url="https://pvamagic.com/tonti/comments/vote">
-                                              <li> <span class="vote vote-up"> <i class="fas fa-thumbs-up"></i> <span class="count"> 2 </span> </span> </li>
-                                              <li> <span class="vote vote-down"> <i class="fas fa-thumbs-down"></i> <span class="count"> 0 </span> </span> </li>
-                                            </ul>
-                                          </div>
-                                          <div class="reply-link reply-btn" id="reply-show-btn-8003" data-id="8003"> <i class="fas fa-reply-all"></i> <span class="text">Reply</span> </div>
-                                        </div>
-                                      </div>
-                                      <form class="add-comment-form replied" id="comment-reply-form-8003" method="post" style="display: none" action="https://pvamagic.com/tonti/comment/reply/add">
-                                        <input type="hidden" name="_token" value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI">
-                                        <div class="union-block">
-                                          <div class="form-group">
-                                            <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="">
-                                          </div>
-                                          <div class="form-group">
-                                            <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="">
-                                          </div>
-                                        </div>
-                                        <div class="form-group">
-                                          <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
-                                        </div>
-                                        <div class="feedback-and-agreement">
-                                          <div class="agreement-block">
-                                            <input type="checkbox" id="agreement-checkbox-reply-8003" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="8003" required="">
-                                            <label for="agreement-checkbox-reply-8003" class="custom-checkbox-label">
-                                            <span class="text">I read and agree the</span>
-                                            <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
-                                            </label>
-                                          </div>
-                                        </div>
-                                        <div class="form-group mt-15">
-                                          <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-8003" data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"></div>
-                                        </div>
-                                        <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment">
-                                        <input type="hidden" name="commentable_id" value="8003">
-                                        <div class="btn-container">
-                                          <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="8003">
-                                          Add a comment
-                                          </button>
-                                        </div>
-                                      </form>
-                                      <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-8003" role="alert" style="display: none"></div>
-                                      <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-8003" role="alert" style="display: none">
-                                        <p>Your reply is awaiting moderation. We save your draft here</p>
-                                      </div>
-                                      <ul class="comments-sublist" style="display:none" id="replies-list-8003">  </ul>
-                                    </li>
-                                    <li>
-                                      <div class="comment-item">
-                                        <div class="title-part">
-                                          <div class="user-info">
-                                            <img class="avatar has-avatar " src="https://www.gravatar.com/avatar/5da0f7047f025983fd27b5391b52f91e?s=36&amp;d=mp"> 
-                                            <div class="concise">
-                                              <div class="nickname">Ann</div>
-                                              <div class="time">added 1 week ago</div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="body-part">
-                                          <div>Hi I love this game 🎮.</div>
-                                          <a href="#close" class="link">Read more</a> 
-                                        </div>
-                                        <div class="bottom-part">
-                                          <div class="helpful-comment-block">
-                                            <ul class="helpful-comment-list" data-id="8000" data-url="https://pvamagic.com/tonti/comments/vote">
-                                              <li> <span class="vote vote-up"> <i class="fas fa-thumbs-up"></i> <span class="count"> 1 </span> </span> </li>
-                                              <li> <span class="vote vote-down"> <i class="fas fa-thumbs-down"></i> <span class="count"> 0 </span> </span> </li>
-                                            </ul>
-                                          </div>
-                                          <div class="reply-link reply-btn" id="reply-show-btn-8000" data-id="8000"> <i class="fas fa-reply-all"></i> <span class="text">Reply</span> </div>
-                                        </div>
-                                      </div>
-                                      <form class="add-comment-form replied" id="comment-reply-form-8000" method="post" style="display: none" action="https://pvamagic.com/tonti/comment/reply/add">
-                                        <input type="hidden" name="_token" value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI">
-                                        <div class="union-block">
-                                          <div class="form-group">
-                                            <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="">
-                                          </div>
-                                          <div class="form-group">
-                                            <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="">
-                                          </div>
-                                        </div>
-                                        <div class="form-group">
-                                          <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
-                                        </div>
-                                        <div class="feedback-and-agreement">
-                                          <div class="agreement-block">
-                                            <input type="checkbox" id="agreement-checkbox-reply-8000" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="8000" required="">
-                                            <label for="agreement-checkbox-reply-8000" class="custom-checkbox-label">
-                                            <span class="text">I read and agree the</span>
-                                            <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
-                                            </label>
-                                          </div>
-                                        </div>
-                                        <div class="form-group mt-15">
-                                          <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-8000" data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"></div>
-                                        </div>
-                                        <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment">
-                                        <input type="hidden" name="commentable_id" value="8000">
-                                        <div class="btn-container">
-                                          <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="8000">
-                                          Add a comment
-                                          </button>
-                                        </div>
-                                      </form>
-                                      <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-8000" role="alert" style="display: none"></div>
-                                      <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-8000" role="alert" style="display: none">
-                                        <p>Your reply is awaiting moderation. We save your draft here</p>
-                                      </div>
-                                      <ul class="comments-sublist" style="display:none" id="replies-list-8000">  </ul>
-                                    </li>
-                                    <li>
-                                      <div class="comment-item">
-                                        <div class="title-part">
-                                          <div class="user-info">
-                                            <img class="avatar has-avatar " src="https://www.gravatar.com/avatar/4501b5b9d88a22ac6ee8dbfc79d6f96c?s=36&amp;d=mp"> 
-                                            <div class="concise">
-                                              <div class="nickname">Cavin</div>
-                                              <div class="time">added 4 weeks ago</div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="body-part">
-                                          <div>I want to install grand theft auto 5</div>
-                                          <a href="#close" class="link">Read more</a> 
-                                        </div>
-                                        <div class="bottom-part">
-                                          <div class="helpful-comment-block">
-                                            <ul class="helpful-comment-list" data-id="7973" data-url="https://pvamagic.com/tonti/comments/vote">
-                                              <li> <span class="vote vote-up"> <i class="fas fa-thumbs-up"></i> <span class="count"> 15 </span> </span> </li>
-                                              <li> <span class="vote vote-down"> <i class="fas fa-thumbs-down"></i> <span class="count"> 1 </span> </span> </li>
-                                            </ul>
-                                          </div>
-                                          <div class="reply-link reply-btn" id="reply-show-btn-7973" data-id="7973"> <i class="fas fa-reply-all"></i> <span class="text">Reply</span> </div>
-                                        </div>
-                                      </div>
-                                      <form class="add-comment-form replied" id="comment-reply-form-7973" method="post" style="display: none" action="https://pvamagic.com/tonti/comment/reply/add">
-                                        <input type="hidden" name="_token" value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI">
-                                        <div class="union-block">
-                                          <div class="form-group">
-                                            <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="">
-                                          </div>
-                                          <div class="form-group">
-                                            <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="">
-                                          </div>
-                                        </div>
-                                        <div class="form-group">
-                                          <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
-                                        </div>
-                                        <div class="feedback-and-agreement">
-                                          <div class="agreement-block">
-                                            <input type="checkbox" id="agreement-checkbox-reply-7973" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="7973" required="">
-                                            <label for="agreement-checkbox-reply-7973" class="custom-checkbox-label">
-                                            <span class="text">I read and agree the</span>
-                                            <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
-                                            </label>
-                                          </div>
-                                        </div>
-                                        <div class="form-group mt-15">
-                                          <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-7973" data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"></div>
-                                        </div>
-                                        <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment">
-                                        <input type="hidden" name="commentable_id" value="7973">
-                                        <div class="btn-container">
-                                          <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="7973">
-                                          Add a comment
-                                          </button>
-                                        </div>
-                                      </form>
-                                      <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-7973" role="alert" style="display: none"></div>
-                                      <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-7973" role="alert" style="display: none">
-                                        <p>Your reply is awaiting moderation. We save your draft here</p>
-                                      </div>
-                                      <ul class="comments-sublist" style="display:none" id="replies-list-7973">  </ul>
-                                    </li>
-                                    <li>
-                                      <div class="comment-item">
-                                        <div class="title-part">
-                                          <div class="user-info">
-                                            <img class="avatar has-avatar " src="https://www.gravatar.com/avatar/56b7b5ceae01df55f72744b55c2a15db?s=36&amp;d=mp"> 
-                                            <div class="concise">
-                                              <div class="nickname">Mary</div>
-                                              <div class="time">added 2 years ago</div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="body-part">
-                                          <div>Thank you</div>
-                                          <a href="#close" class="link">Read more</a> 
-                                        </div>
-                                        <div class="bottom-part">
-                                          <div class="helpful-comment-block">
-                                            <ul class="helpful-comment-list" data-id="4792" data-url="https://pvamagic.com/tonti/comments/vote">
-                                              <li> <span class="vote vote-up"> <i class="fas fa-thumbs-up"></i> <span class="count"> 33 </span> </span> </li>
-                                              <li> <span class="vote vote-down"> <i class="fas fa-thumbs-down"></i> <span class="count"> 6 </span> </span> </li>
-                                            </ul>
-                                          </div>
-                                          <div class="reply-link reply-btn" id="reply-show-btn-4792" data-id="4792"> <i class="fas fa-reply-all"></i> <span class="text">Reply</span> </div>
-                                        </div>
-                                      </div>
-                                      <form class="add-comment-form replied" id="comment-reply-form-4792" method="post" style="display: none" action="https://pvamagic.com/tonti/comment/reply/add">
-                                        <input type="hidden" name="_token" value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI">
-                                        <div class="union-block">
-                                          <div class="form-group">
-                                            <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="">
-                                          </div>
-                                          <div class="form-group">
-                                            <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="">
-                                          </div>
-                                        </div>
-                                        <div class="form-group">
-                                          <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
-                                        </div>
-                                        <div class="feedback-and-agreement">
-                                          <div class="agreement-block">
-                                            <input type="checkbox" id="agreement-checkbox-reply-4792" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="4792" required="">
-                                            <label for="agreement-checkbox-reply-4792" class="custom-checkbox-label">
-                                            <span class="text">I read and agree the</span>
-                                            <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
-                                            </label>
-                                          </div>
-                                        </div>
-                                        <div class="form-group mt-15">
-                                          <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-4792" data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"></div>
-                                        </div>
-                                        <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment">
-                                        <input type="hidden" name="commentable_id" value="4792">
-                                        <div class="btn-container">
-                                          <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="4792">
-                                          Add a comment
-                                          </button>
-                                        </div>
-                                      </form>
-                                      <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-4792" role="alert" style="display: none"></div>
-                                      <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-4792" role="alert" style="display: none">
-                                        <p>Your reply is awaiting moderation. We save your draft here</p>
-                                      </div>
-                                      <ul class="comments-sublist" style="display:none" id="replies-list-4792">  </ul>
-                                    </li>
-                                    <li>
-                                      <div class="comment-item">
-                                        <div class="title-part">
-                                          <div class="user-info">
-                                            <img class="avatar has-avatar " src="https://www.gravatar.com/avatar/8ffb5876aa6d7a08a6fb2b957051d551?s=36&amp;d=mp"> 
-                                            <div class="concise">
-                                              <div class="nickname">Bob</div>
-                                              <div class="time">added 2 years ago</div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="body-part">
-                                          <div>Is soo God game</div>
-                                          <a href="#close" class="link">Read more</a> 
-                                        </div>
-                                        <div class="bottom-part">
-                                          <div class="helpful-comment-block">
-                                            <ul class="helpful-comment-list" data-id="4791" data-url="https://pvamagic.com/tonti/comments/vote">
-                                              <li> <span class="vote vote-up"> <i class="fas fa-thumbs-up"></i> <span class="count"> 41 </span> </span> </li>
-                                              <li> <span class="vote vote-down"> <i class="fas fa-thumbs-down"></i> <span class="count"> 6 </span> </span> </li>
-                                            </ul>
-                                          </div>
-                                          <div class="reply-link reply-btn" id="reply-show-btn-4791" data-id="4791"> <i class="fas fa-reply-all"></i> <span class="text">Reply</span> </div>
-                                        </div>
-                                      </div>
-                                      <form class="add-comment-form replied" id="comment-reply-form-4791" method="post" style="display: none" action="https://pvamagic.com/tonti/comment/reply/add">
-                                        <input type="hidden" name="_token" value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI">
-                                        <div class="union-block">
-                                          <div class="form-group">
-                                            <input type="text" name="name" class="custom-input comment" placeholder="Name*" required="">
-                                          </div>
-                                          <div class="form-group">
-                                            <input type="email" name="email" class="custom-input comment" placeholder="Email*" required="">
-                                          </div>
-                                        </div>
-                                        <div class="form-group">
-                                          <textarea class="custom-textarea comment" name="text" placeholder="Comment*" required=""></textarea>
-                                        </div>
-                                        <div class="feedback-and-agreement">
-                                          <div class="agreement-block">
-                                            <input type="checkbox" id="agreement-checkbox-reply-4791" name="policy" value="1" class="reply-policy-agree custom-checkbox" data-id="4791" required="">
-                                            <label for="agreement-checkbox-reply-4791" class="custom-checkbox-label">
-                                            <span class="text">I read and agree the</span>
-                                            <a target="_blank" href="/privacy-policy" class="link">Privacy policy</a>
-                                            </label>
-                                          </div>
-                                        </div>
-                                        <div class="form-group mt-15">
-                                          <div class="g-recaptcha-reply" data-init="0" id="g-recaptcha-reply-4791" data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"></div>
-                                        </div>
-                                        <input type="hidden" name="commentable_type" value="TontiLaguna\Comments\Models\Comment">
-                                        <input type="hidden" name="commentable_id" value="4791">
-                                        <div class="btn-container">
-                                          <button type="submit" class="simple-btn submit-btn send-reply-btn" data-id="4791">
-                                          Add a comment
-                                          </button>
-                                        </div>
-                                      </form>
-                                      <div class="alert alert-danger validate-errors mt-15" id="validate-errors-block-4791" role="alert" style="display: none"></div>
-                                      <div class="alert alert-info ajax-info mt-15" id="ajax-info-block-4791" role="alert" style="display: none">
-                                        <p>Your reply is awaiting moderation. We save your draft here</p>
-                                      </div>
-                                      <ul class="comments-sublist" style="display:none" id="replies-list-4791">  </ul>
-                                    </li>
-                                    <div class="pagination-container">
-                                      <ul class="pagination comments-pagination">
-                                        <li> <a href="#none" class="page-item active" data-url="#"> 1 </a> </li>
-                                        <li> <a href="#none" class="page-item" data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=2"> 2 </a> </li>
-                                        <li> <a href="#none" class="page-item" data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=3"> 3 </a> </li>
-                                        <li> <a href="#none" class="page-item" data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=4"> 4 </a> </li>
-                                        <li> <a href="#none" class="page-item" data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=5"> 5 </a> </li>
-                                        <li> <a href="#none" aria-label="Last" class="page-item" data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=21"> <span aria-hidden="true">»</span> </a> </li>
-                                      </ul>
-                                    </div>
-                                  </ul>
+                        <div class="form-group mt-15">
+                          <div
+                            class="g-recaptcha"
+                            data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"
+                          >
+                            <div style="width: 304px; height: 78px">
+                              <div>
+                                <iframe
+                                  title="reCAPTCHA"
+                                  src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75&amp;co=aHR0cHM6Ly9wdmFtYWdpYy5jb206NDQz&amp;hl=en&amp;v=NZrMWHVy58-S9gVvad9HVGxk&amp;size=normal&amp;cb=tzpvckcgv0dv"
+                                  width="304"
+                                  height="78"
+                                  role="presentation"
+                                  name="a-x0uvanngmfzi"
+                                  frameborder="0"
+                                  scrolling="no"
+                                  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+                                ></iframe>
+                              </div>
+                              <textarea
+                                id="g-recaptcha-response"
+                                name="g-recaptcha-response"
+                                class="g-recaptcha-response"
+                                style="
+                                  width: 250px;
+                                  height: 40px;
+                                  border: 1px solid rgb(193, 193, 193);
+                                  margin: 10px 25px;
+                                  padding: 0px;
+                                  resize: none;
+                                  display: none;
+                                "
+                              ></textarea>
+                            </div>
+                            <iframe style="display: none"></iframe>
+                          </div>
+                        </div>
+                        <input
+                          type="hidden"
+                          name="commentable_type"
+                          value="App\Product"
+                        />
+                        <input
+                          type="hidden"
+                          name="commentable_id"
+                          value="153"
+                        />
+                        <div class="btn-container">
+                          <button
+                            type="submit"
+                            class="simple-btn submit-btn send-comment-btn"
+                          >
+                            Add a comment
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <div
+                      class="alert alert-danger validate-errors mt-15"
+                      id="validate-errors-block"
+                      role="alert"
+                      style="display: none"
+                    ></div>
+                    <div
+                      class="alert alert-info ajax-info mt-15"
+                      id="ajax-info-block"
+                      role="alert"
+                      style="display: none"
+                    >
+                      <p>
+                        Your comment is awaiting moderation. We save your draft
+                        here
+                      </p>
+                    </div>
+                    <div class="comments-list-container">
+                      <h3 class="title">
+                        <span class="count" id="comments-count">101</span>
+                        Comments
+                      </h3>
+                      <ul class="comments-list">
+                        <li>
+                          <div class="comment-item">
+                            <div class="title-part">
+                              <div class="user-info">
+                                <img
+                                  class="avatar has-avatar"
+                                  src="https://www.gravatar.com/avatar/4f2ba511769fdaeaadebfe577d3c9b1d?s=36&amp;d=mp"
+                                />
+                                <div class="concise">
+                                  <div class="nickname">May</div>
+                                  <div class="time">added 1 week ago</div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                    </article>
-                    <aside class="product__right">
-                        <div class="product__right-feedback">
-                            <h2>Authors Feedback</h2>
-                            <div class="author-feedback">
-                                <div class="author-rating">
-                                  <div class="rating-num">
-                                    <h3>5</h3>
-                                    <span class="rating-star"> <span class="rating-info five" title="User rating 5"></span> </span>
-                                  </div>
-                                  <div class="progress-bar-block">
-                                    <div class="progress-bar-item">
-                                      <p>Gameplay</p>
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-                                      </div>
-                                    </div>
-                                    <div class="progress-bar-item">
-                                      <p>Graphics</p>
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-                                      </div>
-                                    </div>
-                                    <div class="progress-bar-item">
-                                      <p>Replay Value</p>
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-                                      </div>
-                                    </div>
-                                    <div class="progress-bar-item">
-                                      <p>Controls</p>
-                                      <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="highly-rated">
-                                  <h4>Highly rated for</h4>
-                                  <ul>
-                                    <li><span>The gameplay is deep and breathtaking; </span></li>
-                                    <li><span>The plot is engrossing; </span></li>
-                                    <li><span>The visuals are realistic.</span></li>
-                                  </ul>
-                                </div>
+                            <div class="body-part">
+                              <div>Nice to get it from the</div>
+                              <a href="#close" class="link">Read more</a>
                             </div>
-                        </div>
-                        <div class="prodcut__right-details">
-                            <h2>PS4 Details</h2>
-                            <ul>
-                                <li>Rating: <span>5</span></li>
-                                <li>Number of voters: <span>115287</span></li>
-                            </ul>
-                        </div>
-                        <div class="product__right-trending">
-                            <h2 class="product__right-trending-title">Trending Reviews</h2>
-                            <ul class="product__right-trending-list">
-                                <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
-                                        <span class="card-image">
-                                        <img src="./images/img_product-right1.png" alt="">
-                                        </span>
-                                        <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> 
-                                        <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
-                                        </span>
-                                        </a>
-                                </li>
-                                <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
-                                        <span class="card-image">
-                                        <img src="./images/img_product-right2.png" alt="">
-                                        </span>
-                                        <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> 
-                                        <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
-                                        </span>
-                                        </a>
-                                </li>
-                                <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
-                                        <span class="card-image">
-                                        <img src="./images/img_product-right3.png" alt="">
-                                        </span>
-                                        <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> 
-                                        <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
-                                        </span>
-                                        </a>
-                                </li>
-                                <li class="product__right-trending-item">
-                                    <a href="fortnite-the-pump-shotgun.html" class="product__right-trending-link">
-                                        <span class="card-image">
-                                        <img src="./images/img_product-right1.png" alt="">
-                                        </span>
-                                        <span class="item-info-block">
-                                        <span class="item-name">Fortnite</span> 
-                                        <span class="rating"> <span class="rating-number">5.0</span> <span class="rating-star">★</span> </span>
-                                        </span>
-                                        </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </aside>
-                </div>
-            </div>
-        </main>
-        <footer class="footer-main">
-            <div class="footer__container">
-                <div class="footer__top">
-                    <div class="info-block">
-                        <p>VaiThuHayHo team invites you to the world of the finest games and distinctly-reviewed apps. Every day we choose and check zillions of different mobile programs to provide you with entertainment and honest reviews. Our professional editors strive to make VaiThuHayHo a top-notch source for getting all the fans of iOS and Android games and apps together.</p>
-                        <div class="footer-block-text">
-                          <div class="social-links-box">
-                            <h4>Share:</h4>
-                            <ul class="social-links">
-                              <li>
-                                <a href="#none">
-                                <i class="fa fa-facebook"></i>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#none">
-                                <i class="fa fa-twitter"></i>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#none">
-                                <i class="fa fa-pinterest"></i>
-                                </a>
-                              </li>
-                            </ul>
+                            <div class="bottom-part">
+                              <div class="helpful-comment-block">
+                                <ul
+                                  class="helpful-comment-list"
+                                  data-id="8003"
+                                  data-url="https://pvamagic.com/tonti/comments/vote"
+                                >
+                                  <li>
+                                    <span class="vote vote-up">
+                                      <i class="fas fa-thumbs-up"></i>
+                                      <span class="count"> 2 </span>
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span class="vote vote-down">
+                                      <i class="fas fa-thumbs-down"></i>
+                                      <span class="count"> 0 </span>
+                                    </span>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div
+                                class="reply-link reply-btn"
+                                id="reply-show-btn-8003"
+                                data-id="8003"
+                              >
+                                <i class="fas fa-reply-all"></i>
+                                <span class="text">Reply</span>
+                              </div>
+                            </div>
                           </div>
+                          <form
+                            class="add-comment-form replied"
+                            id="comment-reply-form-8003"
+                            method="post"
+                            style="display: none"
+                            action="https://pvamagic.com/tonti/comment/reply/add"
+                          >
+                            <input
+                              type="hidden"
+                              name="_token"
+                              value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI"
+                            />
+                            <div class="union-block">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="custom-input comment"
+                                  placeholder="Name*"
+                                  required=""
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  class="custom-input comment"
+                                  placeholder="Email*"
+                                  required=""
+                                />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <textarea
+                                class="custom-textarea comment"
+                                name="text"
+                                placeholder="Comment*"
+                                required=""
+                              ></textarea>
+                            </div>
+                            <div class="feedback-and-agreement">
+                              <div class="agreement-block">
+                                <input
+                                  type="checkbox"
+                                  id="agreement-checkbox-reply-8003"
+                                  name="policy"
+                                  value="1"
+                                  class="reply-policy-agree custom-checkbox"
+                                  data-id="8003"
+                                  required=""
+                                />
+                                <label
+                                  for="agreement-checkbox-reply-8003"
+                                  class="custom-checkbox-label"
+                                >
+                                  <span class="text">I read and agree the</span>
+                                  <a
+                                    target="_blank"
+                                    href="/privacy-policy"
+                                    class="link"
+                                    >Privacy policy</a
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form-group mt-15">
+                              <div
+                                class="g-recaptcha-reply"
+                                data-init="0"
+                                id="g-recaptcha-reply-8003"
+                                data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"
+                              ></div>
+                            </div>
+                            <input
+                              type="hidden"
+                              name="commentable_type"
+                              value="TontiLaguna\Comments\Models\Comment"
+                            />
+                            <input
+                              type="hidden"
+                              name="commentable_id"
+                              value="8003"
+                            />
+                            <div class="btn-container">
+                              <button
+                                type="submit"
+                                class="simple-btn submit-btn send-reply-btn"
+                                data-id="8003"
+                              >
+                                Add a comment
+                              </button>
+                            </div>
+                          </form>
+                          <div
+                            class="alert alert-danger validate-errors mt-15"
+                            id="validate-errors-block-8003"
+                            role="alert"
+                            style="display: none"
+                          ></div>
+                          <div
+                            class="alert alert-info ajax-info mt-15"
+                            id="ajax-info-block-8003"
+                            role="alert"
+                            style="display: none"
+                          >
+                            <p>
+                              Your reply is awaiting moderation. We save your
+                              draft here
+                            </p>
+                          </div>
+                          <ul
+                            class="comments-sublist"
+                            style="display: none"
+                            id="replies-list-8003"
+                          ></ul>
+                        </li>
+                        <li>
+                          <div class="comment-item">
+                            <div class="title-part">
+                              <div class="user-info">
+                                <img
+                                  class="avatar has-avatar"
+                                  src="https://www.gravatar.com/avatar/5da0f7047f025983fd27b5391b52f91e?s=36&amp;d=mp"
+                                />
+                                <div class="concise">
+                                  <div class="nickname">Ann</div>
+                                  <div class="time">added 1 week ago</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="body-part">
+                              <div>Hi I love this game 🎮.</div>
+                              <a href="#close" class="link">Read more</a>
+                            </div>
+                            <div class="bottom-part">
+                              <div class="helpful-comment-block">
+                                <ul
+                                  class="helpful-comment-list"
+                                  data-id="8000"
+                                  data-url="https://pvamagic.com/tonti/comments/vote"
+                                >
+                                  <li>
+                                    <span class="vote vote-up">
+                                      <i class="fas fa-thumbs-up"></i>
+                                      <span class="count"> 1 </span>
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span class="vote vote-down">
+                                      <i class="fas fa-thumbs-down"></i>
+                                      <span class="count"> 0 </span>
+                                    </span>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div
+                                class="reply-link reply-btn"
+                                id="reply-show-btn-8000"
+                                data-id="8000"
+                              >
+                                <i class="fas fa-reply-all"></i>
+                                <span class="text">Reply</span>
+                              </div>
+                            </div>
+                          </div>
+                          <form
+                            class="add-comment-form replied"
+                            id="comment-reply-form-8000"
+                            method="post"
+                            style="display: none"
+                            action="https://pvamagic.com/tonti/comment/reply/add"
+                          >
+                            <input
+                              type="hidden"
+                              name="_token"
+                              value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI"
+                            />
+                            <div class="union-block">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="custom-input comment"
+                                  placeholder="Name*"
+                                  required=""
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  class="custom-input comment"
+                                  placeholder="Email*"
+                                  required=""
+                                />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <textarea
+                                class="custom-textarea comment"
+                                name="text"
+                                placeholder="Comment*"
+                                required=""
+                              ></textarea>
+                            </div>
+                            <div class="feedback-and-agreement">
+                              <div class="agreement-block">
+                                <input
+                                  type="checkbox"
+                                  id="agreement-checkbox-reply-8000"
+                                  name="policy"
+                                  value="1"
+                                  class="reply-policy-agree custom-checkbox"
+                                  data-id="8000"
+                                  required=""
+                                />
+                                <label
+                                  for="agreement-checkbox-reply-8000"
+                                  class="custom-checkbox-label"
+                                >
+                                  <span class="text">I read and agree the</span>
+                                  <a
+                                    target="_blank"
+                                    href="/privacy-policy"
+                                    class="link"
+                                    >Privacy policy</a
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form-group mt-15">
+                              <div
+                                class="g-recaptcha-reply"
+                                data-init="0"
+                                id="g-recaptcha-reply-8000"
+                                data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"
+                              ></div>
+                            </div>
+                            <input
+                              type="hidden"
+                              name="commentable_type"
+                              value="TontiLaguna\Comments\Models\Comment"
+                            />
+                            <input
+                              type="hidden"
+                              name="commentable_id"
+                              value="8000"
+                            />
+                            <div class="btn-container">
+                              <button
+                                type="submit"
+                                class="simple-btn submit-btn send-reply-btn"
+                                data-id="8000"
+                              >
+                                Add a comment
+                              </button>
+                            </div>
+                          </form>
+                          <div
+                            class="alert alert-danger validate-errors mt-15"
+                            id="validate-errors-block-8000"
+                            role="alert"
+                            style="display: none"
+                          ></div>
+                          <div
+                            class="alert alert-info ajax-info mt-15"
+                            id="ajax-info-block-8000"
+                            role="alert"
+                            style="display: none"
+                          >
+                            <p>
+                              Your reply is awaiting moderation. We save your
+                              draft here
+                            </p>
+                          </div>
+                          <ul
+                            class="comments-sublist"
+                            style="display: none"
+                            id="replies-list-8000"
+                          ></ul>
+                        </li>
+                        <li>
+                          <div class="comment-item">
+                            <div class="title-part">
+                              <div class="user-info">
+                                <img
+                                  class="avatar has-avatar"
+                                  src="https://www.gravatar.com/avatar/4501b5b9d88a22ac6ee8dbfc79d6f96c?s=36&amp;d=mp"
+                                />
+                                <div class="concise">
+                                  <div class="nickname">Cavin</div>
+                                  <div class="time">added 4 weeks ago</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="body-part">
+                              <div>I want to install grand theft auto 5</div>
+                              <a href="#close" class="link">Read more</a>
+                            </div>
+                            <div class="bottom-part">
+                              <div class="helpful-comment-block">
+                                <ul
+                                  class="helpful-comment-list"
+                                  data-id="7973"
+                                  data-url="https://pvamagic.com/tonti/comments/vote"
+                                >
+                                  <li>
+                                    <span class="vote vote-up">
+                                      <i class="fas fa-thumbs-up"></i>
+                                      <span class="count"> 15 </span>
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span class="vote vote-down">
+                                      <i class="fas fa-thumbs-down"></i>
+                                      <span class="count"> 1 </span>
+                                    </span>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div
+                                class="reply-link reply-btn"
+                                id="reply-show-btn-7973"
+                                data-id="7973"
+                              >
+                                <i class="fas fa-reply-all"></i>
+                                <span class="text">Reply</span>
+                              </div>
+                            </div>
+                          </div>
+                          <form
+                            class="add-comment-form replied"
+                            id="comment-reply-form-7973"
+                            method="post"
+                            style="display: none"
+                            action="https://pvamagic.com/tonti/comment/reply/add"
+                          >
+                            <input
+                              type="hidden"
+                              name="_token"
+                              value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI"
+                            />
+                            <div class="union-block">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="custom-input comment"
+                                  placeholder="Name*"
+                                  required=""
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  class="custom-input comment"
+                                  placeholder="Email*"
+                                  required=""
+                                />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <textarea
+                                class="custom-textarea comment"
+                                name="text"
+                                placeholder="Comment*"
+                                required=""
+                              ></textarea>
+                            </div>
+                            <div class="feedback-and-agreement">
+                              <div class="agreement-block">
+                                <input
+                                  type="checkbox"
+                                  id="agreement-checkbox-reply-7973"
+                                  name="policy"
+                                  value="1"
+                                  class="reply-policy-agree custom-checkbox"
+                                  data-id="7973"
+                                  required=""
+                                />
+                                <label
+                                  for="agreement-checkbox-reply-7973"
+                                  class="custom-checkbox-label"
+                                >
+                                  <span class="text">I read and agree the</span>
+                                  <a
+                                    target="_blank"
+                                    href="/privacy-policy"
+                                    class="link"
+                                    >Privacy policy</a
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form-group mt-15">
+                              <div
+                                class="g-recaptcha-reply"
+                                data-init="0"
+                                id="g-recaptcha-reply-7973"
+                                data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"
+                              ></div>
+                            </div>
+                            <input
+                              type="hidden"
+                              name="commentable_type"
+                              value="TontiLaguna\Comments\Models\Comment"
+                            />
+                            <input
+                              type="hidden"
+                              name="commentable_id"
+                              value="7973"
+                            />
+                            <div class="btn-container">
+                              <button
+                                type="submit"
+                                class="simple-btn submit-btn send-reply-btn"
+                                data-id="7973"
+                              >
+                                Add a comment
+                              </button>
+                            </div>
+                          </form>
+                          <div
+                            class="alert alert-danger validate-errors mt-15"
+                            id="validate-errors-block-7973"
+                            role="alert"
+                            style="display: none"
+                          ></div>
+                          <div
+                            class="alert alert-info ajax-info mt-15"
+                            id="ajax-info-block-7973"
+                            role="alert"
+                            style="display: none"
+                          >
+                            <p>
+                              Your reply is awaiting moderation. We save your
+                              draft here
+                            </p>
+                          </div>
+                          <ul
+                            class="comments-sublist"
+                            style="display: none"
+                            id="replies-list-7973"
+                          ></ul>
+                        </li>
+                        <li>
+                          <div class="comment-item">
+                            <div class="title-part">
+                              <div class="user-info">
+                                <img
+                                  class="avatar has-avatar"
+                                  src="https://www.gravatar.com/avatar/56b7b5ceae01df55f72744b55c2a15db?s=36&amp;d=mp"
+                                />
+                                <div class="concise">
+                                  <div class="nickname">Mary</div>
+                                  <div class="time">added 2 years ago</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="body-part">
+                              <div>Thank you</div>
+                              <a href="#close" class="link">Read more</a>
+                            </div>
+                            <div class="bottom-part">
+                              <div class="helpful-comment-block">
+                                <ul
+                                  class="helpful-comment-list"
+                                  data-id="4792"
+                                  data-url="https://pvamagic.com/tonti/comments/vote"
+                                >
+                                  <li>
+                                    <span class="vote vote-up">
+                                      <i class="fas fa-thumbs-up"></i>
+                                      <span class="count"> 33 </span>
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span class="vote vote-down">
+                                      <i class="fas fa-thumbs-down"></i>
+                                      <span class="count"> 6 </span>
+                                    </span>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div
+                                class="reply-link reply-btn"
+                                id="reply-show-btn-4792"
+                                data-id="4792"
+                              >
+                                <i class="fas fa-reply-all"></i>
+                                <span class="text">Reply</span>
+                              </div>
+                            </div>
+                          </div>
+                          <form
+                            class="add-comment-form replied"
+                            id="comment-reply-form-4792"
+                            method="post"
+                            style="display: none"
+                            action="https://pvamagic.com/tonti/comment/reply/add"
+                          >
+                            <input
+                              type="hidden"
+                              name="_token"
+                              value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI"
+                            />
+                            <div class="union-block">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="custom-input comment"
+                                  placeholder="Name*"
+                                  required=""
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  class="custom-input comment"
+                                  placeholder="Email*"
+                                  required=""
+                                />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <textarea
+                                class="custom-textarea comment"
+                                name="text"
+                                placeholder="Comment*"
+                                required=""
+                              ></textarea>
+                            </div>
+                            <div class="feedback-and-agreement">
+                              <div class="agreement-block">
+                                <input
+                                  type="checkbox"
+                                  id="agreement-checkbox-reply-4792"
+                                  name="policy"
+                                  value="1"
+                                  class="reply-policy-agree custom-checkbox"
+                                  data-id="4792"
+                                  required=""
+                                />
+                                <label
+                                  for="agreement-checkbox-reply-4792"
+                                  class="custom-checkbox-label"
+                                >
+                                  <span class="text">I read and agree the</span>
+                                  <a
+                                    target="_blank"
+                                    href="/privacy-policy"
+                                    class="link"
+                                    >Privacy policy</a
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form-group mt-15">
+                              <div
+                                class="g-recaptcha-reply"
+                                data-init="0"
+                                id="g-recaptcha-reply-4792"
+                                data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"
+                              ></div>
+                            </div>
+                            <input
+                              type="hidden"
+                              name="commentable_type"
+                              value="TontiLaguna\Comments\Models\Comment"
+                            />
+                            <input
+                              type="hidden"
+                              name="commentable_id"
+                              value="4792"
+                            />
+                            <div class="btn-container">
+                              <button
+                                type="submit"
+                                class="simple-btn submit-btn send-reply-btn"
+                                data-id="4792"
+                              >
+                                Add a comment
+                              </button>
+                            </div>
+                          </form>
+                          <div
+                            class="alert alert-danger validate-errors mt-15"
+                            id="validate-errors-block-4792"
+                            role="alert"
+                            style="display: none"
+                          ></div>
+                          <div
+                            class="alert alert-info ajax-info mt-15"
+                            id="ajax-info-block-4792"
+                            role="alert"
+                            style="display: none"
+                          >
+                            <p>
+                              Your reply is awaiting moderation. We save your
+                              draft here
+                            </p>
+                          </div>
+                          <ul
+                            class="comments-sublist"
+                            style="display: none"
+                            id="replies-list-4792"
+                          ></ul>
+                        </li>
+                        <li>
+                          <div class="comment-item">
+                            <div class="title-part">
+                              <div class="user-info">
+                                <img
+                                  class="avatar has-avatar"
+                                  src="https://www.gravatar.com/avatar/8ffb5876aa6d7a08a6fb2b957051d551?s=36&amp;d=mp"
+                                />
+                                <div class="concise">
+                                  <div class="nickname">Bob</div>
+                                  <div class="time">added 2 years ago</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="body-part">
+                              <div>Is soo God game</div>
+                              <a href="#close" class="link">Read more</a>
+                            </div>
+                            <div class="bottom-part">
+                              <div class="helpful-comment-block">
+                                <ul
+                                  class="helpful-comment-list"
+                                  data-id="4791"
+                                  data-url="https://pvamagic.com/tonti/comments/vote"
+                                >
+                                  <li>
+                                    <span class="vote vote-up">
+                                      <i class="fas fa-thumbs-up"></i>
+                                      <span class="count"> 41 </span>
+                                    </span>
+                                  </li>
+                                  <li>
+                                    <span class="vote vote-down">
+                                      <i class="fas fa-thumbs-down"></i>
+                                      <span class="count"> 6 </span>
+                                    </span>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div
+                                class="reply-link reply-btn"
+                                id="reply-show-btn-4791"
+                                data-id="4791"
+                              >
+                                <i class="fas fa-reply-all"></i>
+                                <span class="text">Reply</span>
+                              </div>
+                            </div>
+                          </div>
+                          <form
+                            class="add-comment-form replied"
+                            id="comment-reply-form-4791"
+                            method="post"
+                            style="display: none"
+                            action="https://pvamagic.com/tonti/comment/reply/add"
+                          >
+                            <input
+                              type="hidden"
+                              name="_token"
+                              value="U4NPnV9nkqKCGsWE3RjTHGdG6AT6CPuG97w3f1aI"
+                            />
+                            <div class="union-block">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="custom-input comment"
+                                  placeholder="Name*"
+                                  required=""
+                                />
+                              </div>
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  class="custom-input comment"
+                                  placeholder="Email*"
+                                  required=""
+                                />
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <textarea
+                                class="custom-textarea comment"
+                                name="text"
+                                placeholder="Comment*"
+                                required=""
+                              ></textarea>
+                            </div>
+                            <div class="feedback-and-agreement">
+                              <div class="agreement-block">
+                                <input
+                                  type="checkbox"
+                                  id="agreement-checkbox-reply-4791"
+                                  name="policy"
+                                  value="1"
+                                  class="reply-policy-agree custom-checkbox"
+                                  data-id="4791"
+                                  required=""
+                                />
+                                <label
+                                  for="agreement-checkbox-reply-4791"
+                                  class="custom-checkbox-label"
+                                >
+                                  <span class="text">I read and agree the</span>
+                                  <a
+                                    target="_blank"
+                                    href="/privacy-policy"
+                                    class="link"
+                                    >Privacy policy</a
+                                  >
+                                </label>
+                              </div>
+                            </div>
+                            <div class="form-group mt-15">
+                              <div
+                                class="g-recaptcha-reply"
+                                data-init="0"
+                                id="g-recaptcha-reply-4791"
+                                data-sitekey="6LdsARMaAAAAAEmeaC9ayq65rsijVtoap9odCl75"
+                              ></div>
+                            </div>
+                            <input
+                              type="hidden"
+                              name="commentable_type"
+                              value="TontiLaguna\Comments\Models\Comment"
+                            />
+                            <input
+                              type="hidden"
+                              name="commentable_id"
+                              value="4791"
+                            />
+                            <div class="btn-container">
+                              <button
+                                type="submit"
+                                class="simple-btn submit-btn send-reply-btn"
+                                data-id="4791"
+                              >
+                                Add a comment
+                              </button>
+                            </div>
+                          </form>
+                          <div
+                            class="alert alert-danger validate-errors mt-15"
+                            id="validate-errors-block-4791"
+                            role="alert"
+                            style="display: none"
+                          ></div>
+                          <div
+                            class="alert alert-info ajax-info mt-15"
+                            id="ajax-info-block-4791"
+                            role="alert"
+                            style="display: none"
+                          >
+                            <p>
+                              Your reply is awaiting moderation. We save your
+                              draft here
+                            </p>
+                          </div>
+                          <ul
+                            class="comments-sublist"
+                            style="display: none"
+                            id="replies-list-4791"
+                          ></ul>
+                        </li>
+                        <div class="pagination-container">
+                          <ul class="pagination comments-pagination">
+                            <li>
+                              <a
+                                href="#none"
+                                class="page-item active"
+                                data-url="#"
+                              >
+                                1
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#none"
+                                class="page-item"
+                                data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=2"
+                              >
+                                2
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#none"
+                                class="page-item"
+                                data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=3"
+                              >
+                                3
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#none"
+                                class="page-item"
+                                data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=4"
+                              >
+                                4
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#none"
+                                class="page-item"
+                                data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=5"
+                              >
+                                5
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#none"
+                                aria-label="Last"
+                                class="page-item"
+                                data-url="https://pvamagic.com/tonti/comments/get?type=App%5CProduct&amp;id=153&amp;page=21"
+                              >
+                                <span aria-hidden="true">»</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <aside class="product__right">
+              <div class="product__right-feedback">
+                <h2>Authors Feedback</h2>
+                <div class="author-feedback">
+                  <div class="author-rating">
+                    <div class="rating-num">
+                      <h3>5</h3>
+                      <span class="rating-star">
+                        <span
+                          class="rating-info five"
+                          title="User rating 5"
+                        ></span>
+                      </span>
+                    </div>
+                    <div class="progress-bar-block">
+                      <div class="progress-bar-item">
+                        <p>Gameplay</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            aria-valuenow="50"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 100%"
+                          ></div>
                         </div>
                       </div>
-                </div>
-                <div class="footer__bottom">
-                    <div class="copyright">
-                        © 2023 VaiThuHayHo - All Rights Reserved
+                      <div class="progress-bar-item">
+                        <p>Graphics</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            aria-valuenow="50"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 100%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="progress-bar-item">
+                        <p>Replay Value</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            aria-valuenow="40"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 80%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="progress-bar-item">
+                        <p>Controls</p>
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            aria-valuenow="50"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            style="width: 100%"
+                          ></div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div class="highly-rated">
+                    <h4>Highly rated for</h4>
+                    <ul>
+                      <li>
+                        <span>The gameplay is deep and breathtaking; </span>
+                      </li>
+                      <li><span>The plot is engrossing; </span></li>
+                      <li><span>The visuals are realistic.</span></li>
+                    </ul>
+                  </div>
                 </div>
+              </div>
+              <div class="prodcut__right-details">
+                <h2>PS4 Details</h2>
+                <ul>
+                  <li>Rating: <span>5</span></li>
+                  <li>Number of voters: <span>115287</span></li>
+                </ul>
+              </div>
+              <div class="product__right-trending">
+                <h2 class="product__right-trending-title">Trending Reviews</h2>
+                <ul class="product__right-trending-list">
+                  <li class="product__right-trending-item">
+                    <a
+                      href="fortnite-the-pump-shotgun.html"
+                      class="product__right-trending-link"
+                    >
+                      <span class="card-image">
+                        <img src="./images/img_product-right1.png" alt="" />
+                      </span>
+                      <span class="item-info-block">
+                        <span class="item-name">Fortnite</span>
+                        <span class="rating">
+                          <span class="rating-number">5.0</span>
+                          <span class="rating-star">★</span>
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="product__right-trending-item">
+                    <a
+                      href="fortnite-the-pump-shotgun.html"
+                      class="product__right-trending-link"
+                    >
+                      <span class="card-image">
+                        <img src="./images/img_product-right2.png" alt="" />
+                      </span>
+                      <span class="item-info-block">
+                        <span class="item-name">Fortnite</span>
+                        <span class="rating">
+                          <span class="rating-number">5.0</span>
+                          <span class="rating-star">★</span>
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="product__right-trending-item">
+                    <a
+                      href="fortnite-the-pump-shotgun.html"
+                      class="product__right-trending-link"
+                    >
+                      <span class="card-image">
+                        <img src="./images/img_product-right3.png" alt="" />
+                      </span>
+                      <span class="item-info-block">
+                        <span class="item-name">Fortnite</span>
+                        <span class="rating">
+                          <span class="rating-number">5.0</span>
+                          <span class="rating-star">★</span>
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="product__right-trending-item">
+                    <a
+                      href="fortnite-the-pump-shotgun.html"
+                      class="product__right-trending-link"
+                    >
+                      <span class="card-image">
+                        <img src="./images/img_product-right1.png" alt="" />
+                      </span>
+                      <span class="item-info-block">
+                        <span class="item-name">Fortnite</span>
+                        <span class="rating">
+                          <span class="rating-number">5.0</span>
+                          <span class="rating-star">★</span>
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </main>
+      <footer class="footer-main">
+        <div class="footer__container">
+          <div class="footer__top">
+            <div class="info-block">
+              <p>
+                VaiThuHayHo team invites you to the world of the finest games
+                and distinctly-reviewed apps. Every day we choose and check
+                zillions of different mobile programs to provide you with
+                entertainment and honest reviews. Our professional editors
+                strive to make VaiThuHayHo a top-notch source for getting all
+                the fans of iOS and Android games and apps together.
+              </p>
+              <div class="footer-block-text">
+                <div class="social-links-box">
+                  <h4>Share:</h4>
+                  <ul class="social-links">
+                    <li>
+                      <a href="#none">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#none">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#none">
+                        <i class="fa fa-pinterest"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </footer>
+          </div>
+          <div class="footer__bottom">
+            <div class="copyright">
+              © 2023 VaiThuHayHo - All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-<script src="./js/plugins/jquery/dist/jquery.js"></script>
-<script src="./js/plugins/owl.carousel/dist/owl.carousel.min.js"></script>
-<script src="./js/customs/customCarosel.js"></script>
-<script src="./js/customs/nav.js"></script>
-
-</body>
+    <script src="./js/plugins/jquery/dist/jquery.js"></script>
+    <script src="./js/plugins/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="./js/customs/customCarosel.js"></script>
+    <script src="./js/customs/nav.js"></script>
+  </body>
 </html>

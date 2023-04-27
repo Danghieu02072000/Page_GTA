@@ -1,60 +1,61 @@
 .product__tag-menu {
-    display: flex;
+  display: flex;
 }
 .product__tag-item {
-    font-size: 14px;
-    text-align: left;
-    color: #545761;
-    line-height: 1.43;
+  font-size: 14px;
+  text-align: left;
+  color: #545761;
+  line-height: 1.43;
 }
 .product__tag-item::after {
-    content: "/";
-    color: inherit;
-    font-size: inherit;
-    padding: 0 8px 0 4px;
+  content: "/";
+  color: inherit;
+  font-size: inherit;
+  padding: 0 8px 0 4px;
 }
 .product__tag-item-active {
-    color: #acacaf;
+  color: #acacaf;
 }
 .product-top {
-    margin: 16px 0 32px;
-    padding: 50px 32px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 50px;
-    border-radius: 4px;
-    box-shadow: 0 2px 6px 0 hsla(220,7%,92%,.92),0 -1px 1px 0 hsla(220,7%,92%,.6);
-    background-color: #fff;
+  margin: 16px 0 32px;
+  padding: 50px 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 hsla(220, 7%, 92%, 0.92),
+    0 -1px 1px 0 hsla(220, 7%, 92%, 0.6);
+  background-color: #fff;
 }
 .product__top-img {
-    max-width: 236px;
-    height: 236px;
+  max-width: 236px;
+  height: 236px;
 }
 .product__top-img img {
-   width: 100%;
+  width: 100%;
 }
 .product__top-desc h1 {
-    line-height: 1.25;
+  line-height: 1.25;
 }
 .product__top-desc p {
-    font-family: Roboto,sans-serif;
-    font-size: 14px;
-    line-height: 1.57;
-    color: #767981;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #767981;
 }
 .product__top-btn {
-    background-image: linear-gradient(270deg,#129821,#46bf00 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 44px;
-    width: 300px;
-    border-radius: 22px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
+  background-image: linear-gradient(270deg, #129821, #46bf00 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 44px;
+  width: 300px;
+  border-radius: 22px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
 }
 .product__tag-item:hover {
-    color: #46bf00;
+  color: #46bf00;
 }
