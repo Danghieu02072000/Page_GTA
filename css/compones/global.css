@@ -3,6 +3,11 @@ body {
     font-size: 14px;
     color : #222;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
