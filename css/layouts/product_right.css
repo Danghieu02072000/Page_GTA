@@ -27,7 +27,7 @@
     justify-content: center;
     width: 114px;
     height: 22px;
-    background-image: url(/images/img_star.svg);
+    background-image: url(../../images/img_star.svg);
     background-size: cover;
     background-repeat: no-repeat;
 }
