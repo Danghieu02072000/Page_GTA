@@ -188,6 +188,7 @@
 
 .level-up {
   display: flex;
+  padding-top: 30px;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -211,9 +212,9 @@
   margin-bottom: -5px;
 }
 
-.level-up .left {
+/* .level-up .left {
   text-align: center;
-}
+} */
 
 .level-up .right {
   padding-left: 30px;
@@ -221,4 +222,86 @@
 
 .img-responsive {
   max-width: 100%;
+}
+.product__left-text-top {
+  display: block;
+  text-align: center;
+  padding: 40px;
+}
+.product__left-app {
+  display: flex;
+  gap: 15px;
+}
+.product__left-app-img {
+  width: 100px;
+  height: 100px;
+}
+.product__left-two-carosel {
+  padding-top: 20px;
+}
+.product__left-install-top {
+  text-align: center;
+}
+.product__left-install-sub {
+    margin: 12px 0;
+    font-size: 13px;
+    color: #85888e;
+}
+.product__left-install-bottom {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.product__left-install-btn {
+  padding: 14px;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #e6c476;
+  display: flex;
+  justify-content: center;
+  gap:5px;
+  align-items: center;
+}
+.product__left-question-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 24px 0 rgb(43 64 115 / 8%);
+
+}
+.product__left-desc {
+  padding: 30px 25px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 50px 0 rgb(34 45 56 / 6%);
+  background: #fff;
+}
+.product__left-desc-title {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  margin: 0;
+}
+.product__left-categoris-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.product__left-categoris-title {
+  box-shadow: 0 4px 24px 0 rgb(43 64 115 / 8%);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.product__left-categoris-link {
+  display: inline-block;
+  background-color: #fff;
+  font-size: 16px;
+  color: #4f535d;
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: 0 4px 20px 0 rgba(43, 64, 115, 0.12);
 }

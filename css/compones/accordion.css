@@ -1,0 +1,78 @@
+  
+    .acc {
+        background-color: grey;
+        color: #FFF;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: 1px solid white;
+        outline: none;
+        transition: 0.4s;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+    }
+
+    
+    .active, .acc:hover {
+        background-color: gainsboro;
+    }
+
+    
+    .content {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+
+    p{
+      font-family: cursive; 
+    }
+
+
+    .acc {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #ededee;
+        padding: 17px;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: #fff;
+        color: #222;
+        position: relative;
+    }
+
+    .acc i {
+        font-size: 25px;
+        color: #e6c476;
+    }
+    .acc::before{
+        position: absolute;
+        content: "\02795";/* + sign */
+        font-size: 14px;
+        float: right;
+        /* margin-left: 5px; */
+        right:18px;
+        top:22px;
+    }
+    .active, .acc:hover {
+        background-color: #e6c476;
+        color: white;
+    }
+
+    
+    .content {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+
+    p{
+      font-family: cursive; 
+    }
+

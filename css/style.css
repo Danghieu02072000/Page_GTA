@@ -8,3 +8,6 @@
 @import "./layouts/product_right.css";
 @import "./layouts/comment.css";
 @import "./layouts/responsive.css";
+@import "./layouts/breadcrumbs.css";
+@import "./compones/accordion.css";
+
