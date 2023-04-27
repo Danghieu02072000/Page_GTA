@@ -43,14 +43,94 @@
     font-size: 13px;
     margin-top: 20px;
  }
+ .main__content-three {
+   font-family: 'Poppins', sans-serif;
+   display: flex;
+ }
+ .main__center {
+   width: 65%;
+ }
+ .main__sidebar {
+   width: 34%;
+ }
  .btn-download {
     margin: 20px auto;
     width: 200px;
     background-color:#ffa300 ;
     text-align: center;
+    border-radius: 8px;
+    border: 2px solid #0d6efd;
  }
  .btn-download a {
+    color: #fff;
+    font-weight: 700;
     display: inline-block;
-    padding: 15px;
-
+    padding: 10px;
+}
+ .main__desc-title {
+   font-size: 20px;
+   font-weight: 600;
+   padding-bottom: 16px;
  }
+ .main__desc-text {
+   color: rgba(11, 17, 31, 0.72);
+   font-size: 15px;
+   padding-bottom: 16px;
+ }
+ .main__desc_text-center {
+   text-align: center;
+   font-size: 10px;
+   padding:20px;
+   display: block;
+   margin:0 auto;
+ }
+ .main__progressing {
+   margin-bottom: 20px;
+ }
+ .main__progressing .item {
+   margin-bottom: 10px;
+   line-height: 1.7;
+ }
+ .main__progressing .label {
+   display: flex;
+   justify-content: space-between;
+   font-weight: 500;
+   font-size: 15px;
+ }
+ .main__progressing .progress {
+   background-color: #ffa300;
+   height: 10px;
+   width: 100%;
+ }
+ .main__progressing .title {
+   font-weight: 700;
+ }
+ .progressing-plus-title {
+   font-size: 16px;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 16px;
+ }
+ .progressing-plus-desc {
+   font-size: 15px;
+   color: rgba(11, 17, 31, 0.72);
+   font-weight: 400;
+   margin-top: 20px;
+   line-height: 1.3;
+ }
+ .main__progressing-plus {
+   display: flex;
+ }
+.main__carosel {
+   margin: 20px 0;
+}
+.main__related-list {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap:5px;
+}
+.main__related-item {
+   width: 30%;
+   padding:8px;
+}

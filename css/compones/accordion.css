@@ -69,4 +69,42 @@
         color: #5c5f77;
     }
 
-
+@media (max-width:1500px) {
+    .main__related-item {
+        width: 45%;
+    }
+    .main__download-info {
+        width: 55%;
+    }
+}
+@media (max-width:1100px) {
+    .main__content-three {
+        flex-direction: column;
+    }
+    .main__center {
+        width: 100%;
+    }
+    .main__sidebar {
+        width: 100%;
+    }
+    .product__right-trending-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /* .product__right-trending-item {
+        width: 45%;
+    } */
+}
+@media (max-width:650px) {
+    .main__related-item {
+        width: 100%;
+    }
+    .product__right-trending-item {
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .main__download-info {
+        width: 90%;
+    }
+}
