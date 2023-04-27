@@ -78,10 +78,7 @@
 
 .search-form-btn {
     font-size: 20px;
-
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
+    display: none;
 }
 /* mobile */
 .nav-mobile-top {
@@ -99,7 +96,7 @@
 .nav-mobile .search-form input {
     width: 100%;
 }
-.search-btn-submit {
+submit.search-btn- {
     background-color: unset;
     border: none;
     top: 3px;

@@ -11,6 +11,10 @@
     .nav-mobile {
         display: block;
     }
+    .search-btn-submit {
+        right: 36px;
+        top: 22px;
+    }
     .nav-mobile .search-form-container {
         top: 56px;
         position: absolute;
@@ -154,13 +158,9 @@
     .owl-prev > span {
         padding:0px;
     }
-    .search-btn-submit {
-        right: 35px;
-    }
 }
 @media (max-width:380px){
     .nav-mobile .search-form-container {
         width: 100%;
     }
-
 }
