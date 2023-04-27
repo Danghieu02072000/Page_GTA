@@ -77,13 +77,17 @@
     margin-bottom: 14px;
 }
 .product__left-search-link {
-    background: #3399ff;
-    color: #fff;
+    background: #eee;
+    color: #444;
     padding: 4px;
     margin-right: 12px;
     display: flex;
     font-size: 14px;
 
+}
+.product__left-search-link:hover {
+  background-color: #3399ff;
+  color: #fff;
 }
 .product__left-search-form input{
     width: 90%;

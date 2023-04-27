@@ -55,6 +55,6 @@
     font-weight: 600;
     color: #fff;
 }
-.nav-mobile {
-    display: none;
+.product__tag-item:hover {
+    color: #46bf00;
 }
