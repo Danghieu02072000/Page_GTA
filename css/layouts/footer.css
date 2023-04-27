@@ -23,3 +23,29 @@
     line-height: 1.54;
     text-align: center;
 }
+
+.social-links-box {
+    display: flex;
+}
+
+.social-links-box ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 0
+}
+
+.social-links-box ul li {
+    padding: 0 10px
+}
+
+.social-links-box ul li a {
+    font-size: 18px;
+    color: #a6a9b3
+}
+
+.social-links-box ul li a:hover {
+    color: #46bf00
+}
