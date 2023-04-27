@@ -2,7 +2,6 @@
   background-color: #612a19;
   padding: 40px 28px;
   border-top: 4px solid #46bf00;
-  margin-top: 40px;
 }
 .info-block p {
   color: #fff;
@@ -48,4 +47,9 @@
 
 .social-links-box ul li a:hover {
   color: #46bf00;
+}
+
+.footer__container {
+  max-width: 1000px;
+  margin: 0 auto;
 }

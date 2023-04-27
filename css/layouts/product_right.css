@@ -5,8 +5,14 @@
   margin-bottom: 20px;
 }
 .product__right {
-  margin-left: 20px;
+  margin-left: 30px;
+  width: calc(100% - 60% - 30px);
 }
+
+.product__right-second {
+  width: calc(100% - 65% - 30px);
+}
+
 .product__right-feedback h2 {
   line-height: 1.33;
   padding: 24px 24px 16px;
