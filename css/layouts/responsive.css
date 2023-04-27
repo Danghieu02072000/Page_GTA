@@ -1,5 +1,11 @@
 
 @media (min-width:450px) and (max-width: 950px) {
+    .nav-mobile {
+        display: none;
+    }
+    .nav-pc {
+        display: none;
+    }
     .product__right {
         margin-left: 0;
     }
