@@ -55,4 +55,6 @@
     font-weight: 600;
     color: #fff;
 }
-
+.nav-mobile {
+    display: none;
+}
