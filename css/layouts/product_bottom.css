@@ -237,6 +237,9 @@
   display: block;
   text-align: center;
   padding: 20px;
+  font-size: 10px;
+  line-height: 26px;
+  color: #222;
 }
 .product__left-app {
   display: flex;
