@@ -1,35 +1,4 @@
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url(../../fonts/Roboto-Thin.eot);
-  src: url(../../fonts/Roboto-Thin.ttf);
-  src: url(../../fonts/Roboto-Thin.woff);
-  src: url(../../fonts/Roboto-Thin.woff2);
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url(../../fonts/Roboto-Light.eot);
-  src: url(../../fonts/Roboto-Light.ttf);
-  src: url(../../fonts/Roboto-Light.woff);
-  src: url(../../fonts/Roboto-Light.woff2);
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url(../../fonts/Roboto-Medium.eot);
-  src: url(../../fonts/Roboto-Medium.ttf);
-  src: url(../../fonts/Roboto-Medium.woff);
-  src: url(../../fonts/Roboto-Medium.woff2);
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Roboto", sans-serif;
-  src: url(../../fonts/Roboto-Bold.eot);
-  src: url(../../fonts/Roboto-Bold.ttf);
-  src: url(../../fonts/Roboto-Bold.woff);
-  src: url(../../fonts/Roboto-Bold.woff2);
-  font-weight: 700;
-}
+
 @font-face {
   font-family: "Open Sans", sans-serif;
   src: url(../../fonts/OpenSans-Light.eot);
@@ -54,39 +23,12 @@
   src: url(../../fonts/OpenSans-Bold.woff2);
   font-weight: 700;
 }
+
 @font-face {
-  font-family: "Cursive";
-  src: url(../../fonts/Cursive.ttf);
-}
-@font-face {
-  font-family: 'Poppins', sans-serif;
-  src: url(../../fonts/Poppins-ExtraLight.ttf);
-  src: url(../../fonts/Poppins-ExtraLight.eot);
-  src: url(../../fonts/Poppins-ExtraLight.woff);
-  src: url(../../fonts/Poppins-ExtraLight.woff2);
-  font-weight: 200;
-}
-@font-face {
-  font-family: 'Poppins', sans-serif;
-  src: url(../../fonts/Poppins-Light.ttf);
-  src: url(../../fonts/Poppins-Light.eot);
-  src: url(../../fonts/Poppins-Light.woff);
-  src: url(../../fonts/Poppins-Light.woff2);
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'Poppins', sans-serif;
-  src: url(../../fonts/Poppins-Medium.ttf);
-  src: url(../../fonts/Poppins-Medium.eot);
-  src: url(../../fonts/Poppins-Medium.woff);
-  src: url(../../fonts/Poppins-Medium.woff2);
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'Poppins', sans-serif;
-  src: url(../../fonts/Poppins-Bold.ttf);
-  src: url(../../fonts/Poppins-Bold.eot);
-  src: url(../../fonts/Poppins-Bold.woff);
-  src: url(../../fonts/Poppins-Bold.woff2);
-  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  src: url(../../fonts/OpenSans-Regular.eot);
+  src: url(../../fonts/OpenSans-Regular.ttf);
+  src: url(../../fonts/OpenSans-Regular.woff);
+  src: url(../../fonts/OpenSans-Regular.woff2);
+  font-weight: 400;
 }

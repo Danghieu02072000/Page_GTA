@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: flex-start;
  }
- 
+
  .download__desc {
     display: inline-block;
     color: #85888e;
@@ -44,7 +44,7 @@
     margin-top: 20px;
  }
  .main__content-three {
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Open Sans', sans-serif;
    display: flex;
  }
  .main__center {
