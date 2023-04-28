@@ -340,3 +340,9 @@
 .product__left-categoris {
   padding-bottom: 10px;
 }
+
+.product__left-categoris-link:hover {
+  background-color: #00bceb;
+  color: #fff;
+  transition: all 0.4s ;
+}
