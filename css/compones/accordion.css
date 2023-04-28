@@ -38,18 +38,21 @@
 }
 
 .acc i {
-  font-size: 25px;
-  color: #46bf00;
+  font-size: 15px;
+  width: 25px;
+  height: 25px;
+  background-color: #46bf00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  color: #fff;
 }
-.acc::before {
-  position: absolute;
-  content: "\02795"; /* + sign */
-  font-size: 13px;
-  float: right;
-  /* margin-left: 5px; */
-  right: 19px;
-  top: 23px;
+.acc i::before {
+  margin-bottom: -3px;
 }
+
 
 .active,
 .acc:hover {
