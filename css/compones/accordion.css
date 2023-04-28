@@ -39,7 +39,7 @@
 
 .acc i {
   font-size: 25px;
-  color: #e6c476;
+  color: #46bf00;
 }
 .acc::before {
   position: absolute;
@@ -47,13 +47,13 @@
   font-size: 13px;
   float: right;
   /* margin-left: 5px; */
-  right: 20px;
+  right: 19px;
   top: 23px;
 }
 
 .active,
 .acc:hover {
-  background-color: #e6c476;
+  background-color: #46bf00;
   color: white;
 }
 
@@ -66,7 +66,7 @@
 
 @media (max-width: 1500px) {
   .main__related-item {
-    width: 45%;
+    width: 49%;
   }
   .main__download-info {
     width: 55%;

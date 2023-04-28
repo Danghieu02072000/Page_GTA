@@ -119,7 +119,9 @@
    line-height: 1.3;
  }
  .main__progressing-plus {
+   flex-direction: row;
    display: flex;
+   gap: 5px;
  }
 .main__carosel {
    margin: 20px 0;
@@ -131,6 +133,6 @@
    gap:5px;
 }
 .main__related-item {
-   width: 30%;
+   width: 32%;
    padding:8px;
 }

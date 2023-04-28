@@ -66,11 +66,14 @@
 }
 
 @media (max-width: 490px) {
+  .level-up .left {
+    text-align: center;
+  }
   h1 {
     font-size: 20px;
   }
   .wrapper {
-    width: 90%;
+    width: 100%;
   }
   .nav-pc {
     display: none;
@@ -177,5 +180,13 @@
     width: 100%;
     margin-left: 0;
     margin-top: 30px;
+  }
+  .margin-center-sm {
+    margin:0 auto
+  }  
+}
+@media (min-width:750px) and (max-width:1100px){
+  .width-33-lg {
+    width: 33%;
   }
 }
