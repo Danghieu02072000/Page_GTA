@@ -71,7 +71,7 @@
   color: #fff;
   padding: 6px 20px;
 }
-.product__right-trending-item:hover span {
+.product__right-trending-item:hover .item-name {
   color:#46bf00 !important;
   transition: all 0.4s;
 }
@@ -80,6 +80,7 @@
 }
 .product__top-btn:hover {
   background-image: linear-gradient(270deg,#129821,#46bf00 0) !important;
+  transition: all 0.3s;
 
 }
 .product__left-search-list {
@@ -269,11 +270,15 @@
   border-radius: 10px;
   font-size: 15px;
   color: #fff;
-  background-color: #46bf00;
+  background-color:#46bf00;
   display: flex;
   justify-content: center;
   gap:5px;
   align-items: center;
+}
+.product__left-install-btn:hover {
+  background-color: #129821;
+  transition: all 0.2s;
 }
 .product__left-question-title {
   font-size: 20px;
